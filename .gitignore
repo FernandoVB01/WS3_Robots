@@ -1,0 +1,10 @@
+build/
+install/
+log/
+__pycache__/
+*.py[cod]
+.venv/
+src/clearpath_ws/
+*.tar
+*.tar.gz
+*.zip

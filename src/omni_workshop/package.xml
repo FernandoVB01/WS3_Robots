@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>omni_workshop</name>
+  <version>0.1.0</version>
+  <description>Workshop: kinematic model and trajectories of the Dingo-O omnidirectional robot</description>
+  <maintainer email="davidtorrest1097@gmail.com">David Torres</maintainer>
+  <license>Apache-2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf2_msgs</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>python3-matplotlib</exec_depend>
+  <exec_depend>gz_transport_vendor</exec_depend>
+  <exec_depend>gz_msgs_vendor</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>controller_manager_msgs</exec_depend>
+  <exec_depend>forward_command_controller</exec_depend>
+  <exec_depend>ros2controlcli</exec_depend>
+  <exec_depend>worlds</exec_depend>
+  <exec_depend>clearpath_gz</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>omni_teleop_gui</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>clearpath_nav2_demos</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

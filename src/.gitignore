@@ -1,0 +1,12 @@
+# Clearpath packages: downloaded with  vcs import < dependencies.repos
+clearpath_ws/
+
+# Only what is needed to run the worlds in Gazebo is committed
+*.blend
+*.blend1
+.blender.log
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
