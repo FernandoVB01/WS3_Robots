@@ -1,0 +1,9 @@
+test_basic_wheel_directions (test_model.ModelTests.test_basic_wheel_directions) ... ok
+test_rotated_reference (test_model.ModelTests.test_rotated_reference) ... ok
+test_round_trip (test_model.ModelTests.test_round_trip) ... ok
+test_trajectory_continuity_and_clearance (test_model.ModelTests.test_trajectory_continuity_and_clearance) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.011s
+
+OK

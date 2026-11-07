@@ -1,0 +1,48 @@
+[INFO] [1794016675.686390427] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794016675.686653977] [map_saver]: Creating
+[INFO] [1794016675.699671705] [map_saver]: Configuring
+[INFO] [1794016675.732935243] [map_saver]: Saving map from 'map' topic to '/ws/evidencias/mapas/pequeno' file
+[WARN] [1794016675.733884703] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1794016675.733901615] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [1794016675.852308543] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [1794016675.854509077] [map_io]: Received a 218 X 133 map @ 0.05 m/pix
+[INFO] [1794016676.009351142] [map_io]: Writing map occupancy data to /ws/evidencias/mapas/pequeno.pgm
+[INFO] [1794016676.014457269] [map_io]: Writing map metadata to /ws/evidencias/mapas/pequeno.yaml
+[INFO] [1794016676.014817080] [map_io]: Map saved
+[INFO] [1794016676.014860964] [map_saver]: Map saved successfully
+[INFO] [1794016676.047641196] [map_saver]: Destroying
+[INFO] [1794017029.458632634] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794017029.461791623] [map_saver]: Creating
+[INFO] [1794017029.461907312] [map_saver]: Configuring
+[INFO] [1794017029.473201851] [map_saver]: Saving map from 'map' topic to '/ws/evidencias/mapas/pequeno' file
+[WARN] [1794017029.473275781] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1794017029.473287073] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [1794017029.578400018] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [1794017029.579782810] [map_io]: Received a 220 X 201 map @ 0.05 m/pix
+[INFO] [1794017029.652414969] [map_io]: Writing map occupancy data to /ws/evidencias/mapas/pequeno.pgm
+[INFO] [1794017029.661527075] [map_io]: Writing map metadata to /ws/evidencias/mapas/pequeno.yaml
+[INFO] [1794017029.661765086] [map_io]: Map saved
+[INFO] [1794017029.661781146] [map_saver]: Map saved successfully
+[INFO] [1794017029.679008001] [map_saver]: Destroying
+[INFO] [1794017655.146146932] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794017655.147069571] [map_saver]: Creating
+[INFO] [1794017655.147131678] [map_saver]: Configuring
+[INFO] [1794017655.238289713] [map_saver]: Saving map from 'map' topic to '/ws/evidencias/mapas/pequeno' file
+[WARN] [1794017655.238342984] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1794017655.238356910] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [1794017655.379342767] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [1794017655.379438318] [map_io]: Received a 223 X 201 map @ 0.05 m/pix
+[INFO] [1794017655.457305495] [map_io]: Writing map occupancy data to /ws/evidencias/mapas/pequeno.pgm
+[INFO] [1794017655.458502669] [map_io]: Writing map metadata to /ws/evidencias/mapas/pequeno.yaml
+[INFO] [1794017655.458711885] [map_io]: Map saved
+[INFO] [1794017655.458728296] [map_saver]: Map saved successfully
+[INFO] [1794017655.465265007] [map_saver]: Destroying

@@ -8,3 +8,12 @@ src/clearpath_ws/
 *.tar
 *.tar.gz
 *.zip
+
+# Diagnóstico local y grabaciones todavía abiertas o no verificadas.
+evidencias/diagnostico/JRL_intento_01/
+evidencias/diagnostico/*.mp4
+evidencias/diagnostico/*.npz
+evidencias/diagnostico/*gdb*
+evidencias/diagnostico/*backtrace*
+evidencias/videos/03_office_0.mp4
+evidencias/videos/04_office_4.mp4

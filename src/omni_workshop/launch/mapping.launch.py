@@ -23,7 +23,7 @@ SETUP_PATH = os.path.expanduser('~/.ros/omni_workshop/clearpath/')
 def generate_launch_description():
     rviz = Node(
         package='rviz2', executable='rviz2', name='rviz2', output='screen',
-        arguments=['-d', os.path.join(get_package_share_directory('omni_workshop'), 'rviz', 'mapping.rviz')],
+        arguments=['-d', LaunchConfiguration('rviz_config')],
         parameters=[{'use_sim_time': True}],
         remappings=[('/tf', f'/{NAMESPACE}/tf'), ('/tf_static', f'/{NAMESPACE}/tf_static')],
         condition=IfCondition(LaunchConfiguration('rviz')))
@@ -31,10 +31,14 @@ def generate_launch_description():
     slam = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(os.path.join(
             get_package_share_directory('clearpath_nav2_demos'), 'launch', 'slam.launch.py')),
-        launch_arguments=[('setup_path', SETUP_PATH), ('use_sim_time', 'true')])
+        launch_arguments=[('setup_path', SETUP_PATH), ('use_sim_time', 'true'),
+                          ('scan_topic', LaunchConfiguration('scan_topic'))])
 
     return LaunchDescription([
         DeclareLaunchArgument('rviz', default_value='true', choices=['true', 'false']),
+        DeclareLaunchArgument('scan_topic', default_value=''),
+        DeclareLaunchArgument('rviz_config', default_value=os.path.join(
+            get_package_share_directory('omni_workshop'), 'rviz', 'mapping.rviz')),
         # rviz goes before the include, which could redefine the 'rviz' argument
         rviz,
         slam,

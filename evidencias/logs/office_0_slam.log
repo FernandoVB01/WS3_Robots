@@ -1,0 +1,65 @@
+[INFO] [launch]: All log files can be found below /home/ws3/.ros/log/2026-11-06-20-42-26-741937-fercho-VirtualBox-16680
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rviz2-1]: process started with pid [16719]
+[INFO] [map_saver_server-2]: process started with pid [16720]
+[INFO] [lifecycle_manager-3]: process started with pid [16723]
+[INFO] [sync_slam_toolbox_node-4]: process started with pid [16724]
+[rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ubuntu'
+[lifecycle_manager-3] [INFO] [1794015747.442743894] [do100_0000.lifecycle_manager_slam]: Creating
+[lifecycle_manager-3] [INFO] [1794015747.518855713] [do100_0000.lifecycle_manager_slam]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_saver_server-2] [INFO] [1794015747.582985307] [do100_0000.map_saver]: 
+[map_saver_server-2] 	map_saver lifecycle node launched. 
+[map_saver_server-2] 	Waiting on external lifecycle transitions to activate
+[map_saver_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-2] [INFO] [1794015747.584264201] [do100_0000.map_saver]: Creating
+[lifecycle_manager-3] [INFO] [1794015747.586220624] [do100_0000.lifecycle_manager_slam]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1794015747.587179842] [do100_0000.lifecycle_manager_slam]: [34m[1mConfiguring map_saver[0m[0m
+[sync_slam_toolbox_node-4] [INFO] [1794015747.640940290] [do100_0000.slam_toolbox]: Node using stack size 40000000
+[map_saver_server-2] [INFO] [1794015747.750566136] [do100_0000.map_saver]: Configuring
+[lifecycle_manager-3] [INFO] [1794015747.791257498] [do100_0000.lifecycle_manager_slam]: [34m[1mActivating map_saver[0m[0m
+[sync_slam_toolbox_node-4] [INFO] [1794015747.794084866] [do100_0000.slam_toolbox]: Configuring
+[map_saver_server-2] [INFO] [1794015747.798627581] [do100_0000.map_saver]: Activating
+[map_saver_server-2] [INFO] [1794015747.798658379] [do100_0000.map_saver]: Creating bond (map_saver) to lifecycle manager.
+[lifecycle_manager-3] [INFO] [1794015747.918792117] [do100_0000.lifecycle_manager_slam]: Server map_saver connected with bond.
+[lifecycle_manager-3] [INFO] [1794015747.918856599] [do100_0000.lifecycle_manager_slam]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1794015747.918873701] [do100_0000.lifecycle_manager_slam]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-1] [INFO] [1794015747.925559732] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-1] [INFO] [1794015747.925849532] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[sync_slam_toolbox_node-4] [INFO] [1794015748.045848609] [do100_0000.slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[sync_slam_toolbox_node-4] [INFO] [1794015748.050675942] [do100_0000.slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[rviz2-1] [INFO] [1794015748.207387442] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [launch.user]: [LifecycleLaunch] Slamtoolbox node is activating.
+[sync_slam_toolbox_node-4] [INFO] [1794015748.221141758] [do100_0000.slam_toolbox]: Activating
+[sync_slam_toolbox_node-4] Registering sensor: [Custom Described Lidar]
+[rviz2-1] [INFO] [1794015751.173438493] [rviz2]: Trying to create a map of size 86 x 131 using 1 swatches
+[rviz2-1] [ERROR] [1794015751.489458312] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+[rviz2-1] rviz/glsl120/indexed_8bit_image.frag
+[rviz2-1]  GLSL link result : 
+[rviz2-1] active samplers with a different type refer to the same texture image unit
+[rviz2-1] [INFO] [1794015753.794769215] [rviz2]: Message Filter dropping message: frame 'lidar2d_0_laser' at time 6.150 for reason 'discarding message because the queue is full'
+[sync_slam_toolbox_node-4] [INFO] [1794015779.325118104] [do100_0000.slam_toolbox]: Message Filter dropping message: frame 'lidar2d_0_laser' at time 9.225 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794015779.389028898] [rviz2]: Message Filter dropping message: frame 'lidar2d_0_laser' at time 6.400 for reason 'discarding message because the queue is full'
+[rviz2-1] [INFO] [1794015863.213381619] [rviz2]: Message Filter dropping message: frame 'lidar2d_1_laser' at time 6.400 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [sync_slam_toolbox_node-4]: sending signal 'SIGINT' to process[sync_slam_toolbox_node-4]
+[INFO] [lifecycle_manager-3]: sending signal 'SIGINT' to process[lifecycle_manager-3]
+[INFO] [map_saver_server-2]: sending signal 'SIGINT' to process[map_saver_server-2]
+[INFO] [rviz2-1]: sending signal 'SIGINT' to process[rviz2-1]
+[sync_slam_toolbox_node-4] [INFO] [1794016433.567427406] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1794016433.575570418] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1794016433.576220705] [do100_0000.lifecycle_manager_slam]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_slam)
+[lifecycle_manager-3] [INFO] [1794016433.577053939] [do100_0000.lifecycle_manager_slam]: [34m[1mTerminating bond timer...[0m[0m
+[rviz2-1] [INFO] [1794016433.580178534] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_saver_server-2] [INFO] [1794016433.581616964] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_saver_server-2] [INFO] [1794016433.582717018] [do100_0000.map_saver]: Running Nav2 LifecycleNode rcl preshutdown (map_saver)
+[map_saver_server-2] [INFO] [1794016433.583825408] [do100_0000.map_saver]: Deactivating
+[map_saver_server-2] [INFO] [1794016433.584497827] [do100_0000.map_saver]: Destroying bond (map_saver) to lifecycle manager.
+[map_saver_server-2] [INFO] [1794016433.688817992] [do100_0000.map_saver]: Cleaning up
+[map_saver_server-2] [INFO] [1794016433.688868998] [do100_0000.map_saver]: Destroying bond (map_saver) to lifecycle manager.
+[lifecycle_manager-3] [INFO] [1794016433.723640361] [do100_0000.lifecycle_manager_slam]: Destroying lifecycle_manager_slam
+[sync_slam_toolbox_node-4] Unregistering sensor: Custom Described Lidar
+[map_saver_server-2] [INFO] [1794016433.784275072] [do100_0000.map_saver]: Destroying
+[INFO] [lifecycle_manager-3]: process has finished cleanly [pid 16723]
+[INFO] [map_saver_server-2]: process has finished cleanly [pid 16720]
+[INFO] [sync_slam_toolbox_node-4]: process has finished cleanly [pid 16724]
+[ERROR] [rviz2-1]: process has died [pid 16719, exit code -11, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /ws/contenedor/mapping_office_0.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_rnw44v45 -r /tf:=/do100_0000/tf -r /tf_static:=/do100_0000/tf_static'].

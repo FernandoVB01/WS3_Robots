@@ -2,11 +2,31 @@
 
 ## 1. Copiar y preparar
 
-Copia `WS3_JRL_preparado.tar.gz` desde Windows a tu carpeta personal de Ubuntu usando una carpeta compartida de VirtualBox o el método de transferencia que tengas habilitado. Los siguientes comandos suponen que está en `~/WS3_JRL_preparado.tar.gz`.
+Comprueba primero el entorno real. Este taller utiliza Ubuntu **24.04**, ROS 2
+**Jazzy** y Gazebo **Harmonic** (gz-sim 8). Ubuntu 26.04 con Lyrical no satisface
+este requisito; cambiar únicamente el nombre de la distribución en los comandos
+no adapta las dependencias ni los enlaces de Gazebo.
 
 ```bash
-cd ~
-tar -xzf WS3_JRL_preparado.tar.gz
+cat /etc/os-release
+ls /opt/ros
+printenv ROS_DISTRO
+command -v gz
+```
+
+Si todavía no tienes el proyecto, clónalo:
+
+```bash
+git clone https://github.com/FernandoVB01/WS3_Robots.git ~/WS3_proyecto
+```
+
+Si ya existe, revisa `git -C ~/WS3_proyecto status --short --branch` antes de
+actualizar o modificar archivos. Como alternativa, puedes transferir y extraer
+el archivo preparado en Windows en una ubicación nueva, sin mezclar copias.
+
+Con Ubuntu 24.04 y Jazzy instalados, continúa:
+
+```bash
 cd ~/WS3_proyecto
 bash preparar_ubuntu.sh
 ```

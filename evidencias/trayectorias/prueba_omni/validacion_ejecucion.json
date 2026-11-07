@@ -1,0 +1,14 @@
+{
+  "figure": "prueba_omni",
+  "samples": 403,
+  "last_sample_sim_s": 20.1,
+  "reference_duration_sim_s": 20.141592653589793,
+  "csv_finite": true,
+  "csv_time_strictly_increasing": true,
+  "metrics_recomputed_from_csv": true,
+  "controller_finished": true,
+  "source_commit": "843ac6e3d9320d81bf9f91e1a8ebd8a8e9fd3398",
+  "video": "../../videos/01_prueba_omni.mp4",
+  "csv": "trajectory_20261106_200646.csv",
+  "metrics": "trajectory_20261106_200646.json"
+}

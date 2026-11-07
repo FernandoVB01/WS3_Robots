@@ -1,0 +1,3 @@
+dpkg-query: no packages found matching *gazebo*
+dpkg-query: no packages found matching *gz-sim*
+dpkg-query: no packages found matching *ros-gz*

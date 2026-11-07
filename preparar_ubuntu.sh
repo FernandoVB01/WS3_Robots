@@ -2,6 +2,17 @@
 # Ejecutar con bash preparar_ubuntu.sh desde Ubuntu 24.04.
 set -eo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")"
+source /etc/os-release
+if [[ "${ID:-}" != ubuntu || "${VERSION_ID:-}" != 24.04 ]]; then
+  echo "Entorno no validado para este taller: ${PRETTY_NAME:-desconocido}."
+  echo 'Se requiere Ubuntu 24.04, ROS 2 Jazzy y Gazebo Harmonic. No se instalaron paquetes.'
+  exit 1
+fi
+if [[ -n "${ROS_DISTRO:-}" && "$ROS_DISTRO" != jazzy ]]; then
+  echo "La terminal tiene ROS_DISTRO=$ROS_DISTRO. Abre una terminal sin cargar otra distribución de ROS."
+  echo 'No mezcles entornos ROS antes de compilar. No se instalaron paquetes.'
+  exit 1
+fi
 if [[ ! -f /opt/ros/jazzy/setup.bash ]]; then
   echo 'Falta ROS 2 Jazzy. Instálalo según https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html y vuelve a ejecutar.'
   exit 1

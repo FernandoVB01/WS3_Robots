@@ -33,7 +33,7 @@ def generate_launch_description():
     # RViz with the robot and the three paths (desired, actual, odometry) in the world frame
     rviz = Node(
         package='rviz2', executable='rviz2', name='rviz2', output='screen',
-        arguments=['-d', os.path.join(pkg, 'rviz', 'workshop.rviz')],
+        arguments=['-d', LaunchConfiguration('rviz_config')],
         parameters=[{'use_sim_time': True}],
         remappings=[('/tf', '/do100_0000/tf'), ('/tf_static', '/do100_0000/tf_static')],
         condition=IfCondition(LaunchConfiguration('rviz')))
@@ -57,6 +57,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument('world', default_value='arena'),
         DeclareLaunchArgument('rviz', default_value='false', choices=['true', 'false']),
+        DeclareLaunchArgument('rviz_config', default_value=os.path.join(pkg, 'rviz', 'workshop.rviz')),
         # rviz goes before the simulation: the include sets rviz:=false so it does not
         # open the RViz of simulation.launch.py, and includes do not isolate arguments
         rviz,

@@ -1,0 +1,6 @@
+{"event": "exploration_started", "sim_time": 41.0, "wall_time_unix": 1794016188.0324454, "home": [-1.197231581250392e-10, -3.169778491422159e-18]}
+{"event": "map_evaluated", "sim_time": 41.0, "wall_time_unix": 1794016188.0724878, "width": 86, "height": 131, "resolution": 0.05000000074505806, "known_free_cells": 2147, "occupied_cells": 218, "frontier_clusters": 0, "chosen_goal": null}
+{"event": "map_evaluated", "sim_time": 44.0, "wall_time_unix": 1794016230.1203432, "width": 86, "height": 131, "resolution": 0.05000000074505806, "known_free_cells": 2147, "occupied_cells": 218, "frontier_clusters": 0, "chosen_goal": null}
+{"event": "exploration_started", "sim_time": 45.0, "wall_time_unix": 1794016245.7047834, "home": [1.6622772360675298e-11, -3.4216400827063695e-18]}
+{"event": "map_evaluated", "sim_time": 45.0, "wall_time_unix": 1794016245.7388303, "width": 86, "height": 131, "resolution": 0.05000000074505806, "known_free_cells": 2147, "occupied_cells": 218, "frontier_clusters": 4, "chosen_goal": [-0.015950416976969528, 0.651429479906735]}
+{"event": "goal_sent", "sim_time": 45.0, "wall_time_unix": 1794016245.7396295, "x": -0.015950416976969528, "y": 0.651429479906735, "returning_home": false}

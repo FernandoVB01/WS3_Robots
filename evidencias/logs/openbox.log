@@ -1,0 +1,4 @@
+Openbox-Message: 19:48:37.084: Unable to make directory '/home/ws3/.cache/openbox': Permission denied
+Openbox-Message: Unable to make directory "/home/ws3/.cache/openbox/sessions": Permission denied
+Openbox-Message: Unable to find a valid menu file "/var/lib/openbox/debian-menu.xml"
+X connection to :1 broken (explicit kill or server shutdown).

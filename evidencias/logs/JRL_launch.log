@@ -1,0 +1,1000 @@
+[INFO] [launch]: All log files can be found below /home/ws3/.ros/log/2026-11-06-20-25-23-065956-fercho-VirtualBox-15455
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rviz2-1]: process started with pid [15478]
+[INFO] [parameter_bridge-2]: process started with pid [15479]
+[INFO] [gazebo-3]: process started with pid [15480]
+[INFO] [generate_description-4]: process started with pid [15482]
+[INFO] [bash-5]: process started with pid [15483]
+[INFO] [plotter-6]: process started with pid [15486]
+[INFO] [bash-7]: process started with pid [15487]
+[generate_description-4] Generated /home/ws3/.ros/omni_workshop/clearpath//robot.urdf.xacro
+[INFO] [generate_description-4]: process has finished cleanly [pid 15482]
+[INFO] [generate_semantic_description-8]: process started with pid [15492]
+[rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ubuntu'
+[parameter_bridge-2] [INFO] [1794014723.970758346] [clock_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[rviz2-1] [INFO] [1794014724.721212296] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-1] [INFO] [1794014724.721992203] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-1] [INFO] [1794014724.819830887] [rviz2]: Stereo is NOT SUPPORTED
+[gazebo-3] [1;32m[Msg] [0m[1;32mGazebo Sim Server v[0m[1;32m8.15.0[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/ws/install/worlds/share/worlds/worlds/arena.sdf[0m[1;32m].[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [Physics.cc:1004] [0m[1;36mLoaded [[0m[1;36mgz::physics::dartsim::Plugin[0m[1;36m] from library [[0m[1;36m/opt/ros/jazzy/opt/gz_physics_vendor/lib/gz-physics-7/engine-plugins/libgz-physics-dartsim-plugin.so[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Physics[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mCreate[0m[1;32m service on [[0m[1;32m/world/arena/create_multiple[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mCreate[0m[1;32m service on [[0m[1;32m/world/arena/create_multiple/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mRemove[0m[1;32m service on [[0m[1;32m/world/arena/remove[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mRemove[0m[1;32m service on [[0m[1;32m/world/arena/remove/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/arena/set_pose[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/arena/set_pose/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/arena/set_pose_vector[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/arena/set_pose_vector/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mLight configuration[0m[1;32m service on [[0m[1;32m/world/arena/light_config[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mLight configuration[0m[1;32m service on [[0m[1;32m/world/arena/light_config/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPhysics[0m[1;32m service on [[0m[1;32m/world/arena/set_physics[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPhysics[0m[1;32m service on [[0m[1;32m/world/arena/set_physics/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mSphericalCoordinates[0m[1;32m service on [[0m[1;32m/world/arena/set_spherical_coordinates[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mSphericalCoordinates[0m[1;32m service on [[0m[1;32m/world/arena/set_spherical_coordinates/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mEnable collision[0m[1;32m service on [[0m[1;32m/world/arena/enable_collision[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mEnable collision[0m[1;32m service on [[0m[1;32m/world/arena/enable_collision/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mDisable collision[0m[1;32m service on [[0m[1;32m/world/arena/disable_collision[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mDisable collision[0m[1;32m service on [[0m[1;32m/world/arena/disable_collision/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/arena/visual_config[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/arena/visual_config/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/arena/wheel_slip[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/arena/wheel_slip/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::UserCommands[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[generate_semantic_description-8] [INFO] [1794014725.122142288] [moveit_collision_updater.urdf]: Loaded do100-0000 robot model.
+[generate_semantic_description-8] [INFO] [1794014725.573760051] [moveit_2322732680.moveit.core.robot_model]: Loading robot model 'do100-0000'...
+[generate_semantic_description-8] [INFO] [1794014725.573866793] [moveit_2322732680.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[generate_semantic_description-8] [INFO] [1794014725.578301284] [moveit_collision_updater.srdf]: Robot semantic model successfully loaded.
+[generate_semantic_description-8] [INFO] [1794014725.759058965] [moveit_collision_updater.Self-Collisions]: Thread complete 36
+[generate_semantic_description-8] Generated /home/ws3/.ros/omni_workshop/clearpath//robot.srdf.xacro
+[INFO] [generate_semantic_description-8]: process has finished cleanly [pid 15492]
+[INFO] [generate_launch-9]: process started with pid [15615]
+[generate_launch-9] Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/manipulators/launch/manipulators-service.launch.py
+[generate_launch-9] Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/sensors/launch/lidar2d_0.launch.py
+[generate_launch-9] Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/sensors/launch/lidar2d_1.launch.py
+[generate_launch-9] Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/sensors/launch/sensors-service.launch.py
+[generate_launch-9] Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/platform/launch/platform-service.launch.py
+[INFO] [generate_launch-9]: process has finished cleanly [pid 15615]
+[INFO] [generate_param-10]: process started with pid [15616]
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::SceneBroadcaster[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:697] [0m[1;36mConfiguring Sensors system[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:557] [0m[1;36mSensorsPrivate::Run[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Sensors[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:532] [0m[1;36mSensorsPrivate::RenderThread started[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:337] [0m[1;36mWaiting for init[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Imu[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::NavSat[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32mdefault[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/arena[0m[1;32m/control], [[0m[1;32m/world/arena[0m[1;32m/control/state] and [[0m[1;32m/world/arena[0m[1;32m/playback/control][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/arena[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mWorld [[0m[1;32marena[0m[1;32m] initialized with [[0m[1;32mdefault_physics[0m[1;32m] physics profile.[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/arena[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:627] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m5[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationFeatures.cc:90] [0m[1;36mSimulation timestep set to: [0m[1;36m0.003[0m[1;36m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/arena[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/arena[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/arena[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/arena[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/arena/scene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/arena/scene/deletion[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/arena/state[0m[1;32m][0m[1;32m[0m
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/sensors/config/lidar2d_0.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/sensors/config/lidar2d_1.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/control.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/diagnostic_aggregator.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/diagnostic_updater.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/foxglove_bridge.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/imu_filter.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/localization.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/teleop_interactive_markers.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/teleop_joy.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/twist_mux.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/sensors/config/imu_0.yaml
+[generate_param-10] Generated config: /home/ws3/.ros/omni_workshop/clearpath/manipulators/config/moveit.yaml
+[INFO] [generate_param-10]: process has finished cleanly [pid 15616]
+[INFO] [robot_state_publisher-11]: process started with pid [15623]
+[INFO] [spawner-12]: process started with pid [15624]
+[INFO] [ekf_node-13]: process started with pid [15625]
+[INFO] [marker_server-14]: process started with pid [15626]
+[INFO] [twist_mux-15]: process started with pid [15627]
+[INFO] [joy_linux_node-16]: process started with pid [15629]
+[INFO] [teleop_node-17]: process started with pid [15631]
+[INFO] [parameter_bridge-18]: process started with pid [15640]
+[INFO] [parameter_bridge-19]: process started with pid [15641]
+[INFO] [parameter_bridge-20]: process started with pid [15642]
+[INFO] [imu_filter_madgwick_node-21]: process started with pid [15668]
+[INFO] [parameter_bridge-22]: process started with pid [15676]
+[INFO] [static_transform_publisher-23]: process started with pid [15677]
+[INFO] [parameter_bridge-24]: process started with pid [15678]
+[INFO] [static_transform_publisher-25]: process started with pid [15683]
+[INFO] [create-26]: process started with pid [15684]
+[twist_mux-15] [INFO] [1794014726.531974813] [do100_0000.twist_mux]: Topic handler 'topics.external' subscribed to topic 'cmd_vel': timeout = 0.500000s , priority = 1.
+[robot_state_publisher-11] [INFO] [1794014726.536534422] [do100_0000.robot_state_publisher]: Robot initialized
+[twist_mux-15] [INFO] [1794014726.537552976] [do100_0000.twist_mux]: Topic handler 'topics.interactive_marker' subscribed to topic 'twist_marker_server/cmd_vel': timeout = 0.500000s , priority = 8.
+[twist_mux-15] [INFO] [1794014726.537721114] [do100_0000.twist_mux]: Topic handler 'topics.joy' subscribed to topic 'joy_teleop/cmd_vel': timeout = 0.500000s , priority = 10.
+[twist_mux-15] [INFO] [1794014726.537831163] [do100_0000.twist_mux]: Topic handler 'topics.rc' subscribed to topic 'rc_teleop/cmd_vel': timeout = 0.500000s , priority = 12.
+[twist_mux-15] [INFO] [1794014726.537938486] [do100_0000.twist_mux]: Topic handler 'locks.bt_quality' subscribed to topic 'joy_teleop/bt_quality_stop': timeout = None , priority = 253.
+[twist_mux-15] [INFO] [1794014726.538323034] [do100_0000.twist_mux]: Topic handler 'locks.e_stop' subscribed to topic 'platform/emergency_stop': timeout = None , priority = 255.
+[twist_mux-15] [INFO] [1794014726.538427282] [do100_0000.twist_mux]: Topic handler 'locks.safety_stop' subscribed to topic 'platform/safety_stop': timeout = None , priority = 254.
+[marker_server-14] [INFO] [1794014726.613554271] [do100_0000.twist_server_node]: [interactive_marker_twist_server] Initialized.
+[teleop_node-17] [INFO] [1794014726.624867993] [TeleopTwistJoy]: Teleop enable button 4.
+[teleop_node-17] [INFO] [1794014726.624913029] [TeleopTwistJoy]: Turbo on button 5.
+[teleop_node-17] [INFO] [1794014726.624916385] [TeleopTwistJoy]: Linear axis x on 1 at scale 0.400000.
+[teleop_node-17] [INFO] [1794014726.624921665] [TeleopTwistJoy]: Turbo for linear axis x is scale 1.000000.
+[teleop_node-17] [INFO] [1794014726.624924470] [TeleopTwistJoy]: Linear axis y on 3 at scale 0.400000.
+[teleop_node-17] [INFO] [1794014726.624926995] [TeleopTwistJoy]: Turbo for linear axis y is scale 1.000000.
+[teleop_node-17] [INFO] [1794014726.624929510] [TeleopTwistJoy]: Angular axis yaw on 0 at scale 0.500000.
+[teleop_node-17] [INFO] [1794014726.624932105] [TeleopTwistJoy]: Turbo for angular axis yaw is scale 1.400000.
+[joy_linux_node-16] [ERROR] [1794014726.632600144] [do100_0000.joy_node]: Couldn't open joystick /dev/input/ps4. Will retry every second.
+[static_transform_publisher-23] [INFO] [1794014726.674621534] [do100_0000.lidar2d_0_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-23] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-23] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-23] from 'lidar2d_0_link' to 'do100_0000/robot/base_link/lidar2d_0'
+[parameter_bridge-18] [INFO] [1794014726.711595974] [do100_0000.cmd_vel_bridge]: Creating GZ->ROS Bridge: [do100_0000/cmd_vel (gz.msgs.Twist) -> do100_0000/cmd_vel (geometry_msgs/msg/TwistStamped)] (Lazy 0)
+[parameter_bridge-18] [INFO] [1794014726.715027362] [do100_0000.cmd_vel_bridge]: Creating ROS->GZ Bridge: [/model/do100_0000/robot/cmd_vel (geometry_msgs/msg/TwistStamped) -> /model/do100_0000/robot/cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[create-26] [INFO] [1794014726.746383507] [do100_0000.ros_gz_sim]: Requesting list of world names.
+[static_transform_publisher-25] [INFO] [1794014726.774407708] [do100_0000.lidar2d_1_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-25] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-25] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-25] from 'lidar2d_1_link' to 'do100_0000/robot/base_link/lidar2d_1'
+[parameter_bridge-19] [INFO] [1794014726.777428949] [do100_0000.odom_base_tf_bridge]: Creating GZ->ROS Bridge: [/model/do100_0000/robot/tf (gz.msgs.Pose_V) -> /model/do100_0000/robot/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[imu_filter_madgwick_node-21] [INFO] [1794014726.821771115] [do100_0000.imu_filter_madgwick]: Starting ImuFilter
+[imu_filter_madgwick_node-21] [INFO] [1794014726.831448257] [do100_0000.imu_filter_madgwick]: Using dt computed from message headers
+[imu_filter_madgwick_node-21] [INFO] [1794014726.831478344] [do100_0000.imu_filter_madgwick]: The gravity vector is kept in the IMU message.
+[imu_filter_madgwick_node-21] [INFO] [1794014726.831628098] [do100_0000.imu_filter_madgwick]: Imu filter gain set to 0.100000
+[imu_filter_madgwick_node-21] [INFO] [1794014726.831641443] [do100_0000.imu_filter_madgwick]: Gyro drift bias set to 0.000000
+[imu_filter_madgwick_node-21] [INFO] [1794014726.831645551] [do100_0000.imu_filter_madgwick]: Magnetometer bias values: 0.000000 0.000000 0.000000
+[create-26] [INFO] [1794014726.971024473] [do100_0000.ros_gz_sim]: Waiting messages on topic [robot_description].
+[create-26] [INFO] [1794014726.978175630] [do100_0000.ros_gz_sim]: Entity creation successful.
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/arena[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/arena[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="lidar2d_0"]/gz_frame_id:<urdf-string>:L0]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-3] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="lidar2d_1"]/gz_frame_id:<urdf-string>:L0]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-3] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="imu_0"]/gz_frame_id:<urdf-string>:L0]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[spawner-12] [INFO] [1794014727.267997036] [do100_0000.spawner_joint_state_broadcaster]: waiting for service /do100_0000/controller_manager/list_controllers to become available...
+[INFO] [create-26]: process has finished cleanly [pid 15684]
+[gazebo-3] [INFO] [1794014727.353765440] [do100_0000.gz_ros_control]: Loading controller_manager
+[gazebo-3] [INFO] [1794014727.404507032] [do100_0000.controller_manager]: Using ROS clock for triggering controller manager cycles.
+[gazebo-3] [WARN] [1794014727.404616800] [do100_0000.controller_manager]: The resource manager is not yet initialized, will wait for the robot description to initialize it..
+[gazebo-3] [INFO] [1794014727.420578224] [do100_0000.controller_manager]: Subscribing to '/do100_0000/robot_description' topic for robot description.
+[gazebo-3] [WARN] [1794014727.420670369] [do100_0000.gz_ros_control]: Waiting RM to load and initialize hardware...
+[gazebo-3] [INFO] [1794014727.485799950] [do100_0000.controller_manager]: Received robot description from topic.
+[gazebo-3] [INFO] [1794014727.487033546] [do100_0000.controller_manager]: Enforcing command limits is disabled. Command limits from URDF will be ignored.
+[gazebo-3] [INFO] [1794014727.494221270] [do100_0000.gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-3] [INFO] [1794014727.494770661] [do100_0000.gz_ros_control]: Loading joint: front_left_wheel_joint
+[gazebo-3] [INFO] [1794014727.494781922] [do100_0000.gz_ros_control]: 	State:
+[gazebo-3] [INFO] [1794014727.494788585] [do100_0000.gz_ros_control]: 		 position
+[gazebo-3] [INFO] [1794014727.494793083] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-3] [INFO] [1794014727.494801168] [do100_0000.gz_ros_control]: 	Command:
+[gazebo-3] [INFO] [1794014727.494805116] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-3] [INFO] [1794014727.494827669] [do100_0000.gz_ros_control]: Loading joint: front_right_wheel_joint
+[gazebo-3] [INFO] [1794014727.494832127] [do100_0000.gz_ros_control]: 	State:
+[gazebo-3] [INFO] [1794014727.494835994] [do100_0000.gz_ros_control]: 		 position
+[gazebo-3] [INFO] [1794014727.494840112] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-3] [INFO] [1794014727.494843509] [do100_0000.gz_ros_control]: 	Command:
+[gazebo-3] [INFO] [1794014727.494846685] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-3] [INFO] [1794014727.494862314] [do100_0000.gz_ros_control]: Loading joint: rear_left_wheel_joint
+[gazebo-3] [INFO] [1794014727.494865871] [do100_0000.gz_ros_control]: 	State:
+[gazebo-3] [INFO] [1794014727.494869097] [do100_0000.gz_ros_control]: 		 position
+[gazebo-3] [INFO] [1794014727.494872704] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-3] [INFO] [1794014727.494875990] [do100_0000.gz_ros_control]: 	Command:
+[gazebo-3] [INFO] [1794014727.494879036] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-3] [INFO] [1794014727.494893042] [do100_0000.gz_ros_control]: Loading joint: rear_right_wheel_joint
+[gazebo-3] [INFO] [1794014727.494896870] [do100_0000.gz_ros_control]: 	State:
+[gazebo-3] [INFO] [1794014727.494900046] [do100_0000.gz_ros_control]: 		 position
+[gazebo-3] [INFO] [1794014727.494903442] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-3] [INFO] [1794014727.494906558] [do100_0000.gz_ros_control]: 	Command:
+[gazebo-3] [INFO] [1794014727.494909644] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-3] [INFO] [1794014727.494986369] [do100_0000.gz_ros_control]: Loading sensor: imu_0
+[gazebo-3] [INFO] [1794014727.495004513] [do100_0000.gz_ros_control]: 	State:
+[gazebo-3] [WARN] [1794014727.495009423] [do100_0000.gz_ros_control]: IMU sensor 'imu_0' not found in hardware_info, skipping.
+[gazebo-3] [INFO] [1794014727.495183633] [do100_0000.controller_manager]: Initialize hardware 'do100_hardware' 
+[gazebo-3] [WARN] [1794014727.495240180] [do100_0000.controller_manager.hardware_component.system.do100_hardware]: Executor is not available during hardware component initialization for 'do100_hardware'. Skipping node creation!
+[gazebo-3] [INFO] [1794014727.495370236] [do100_0000.controller_manager]: Successful initialization of hardware 'do100_hardware'
+[gazebo-3] [INFO] [1794014727.495631581] [do100_0000.controller_manager]: Activating component 'do100_hardware'.
+[gazebo-3] [INFO] [1794014727.495685693] [resource_manager]: 'configure' hardware 'do100_hardware' 
+[gazebo-3] [INFO] [1794014727.495693618] [do100_0000.gz_ros_control]: System Successfully configured!
+[gazebo-3] [INFO] [1794014727.495699529] [resource_manager]: Successful 'configure' of hardware 'do100_hardware'
+[gazebo-3] [INFO] [1794014727.495707394] [resource_manager]: 'activate' hardware 'do100_hardware' 
+[gazebo-3] [INFO] [1794014727.495724066] [resource_manager]: Successful 'activate' of hardware 'do100_hardware'
+[gazebo-3] [WARN] [1794014727.495829225] [do100_0000.controller_manager]: Component 'do100_hardware' does not have read or write statistics initialized, skipping registration.
+[gazebo-3] [INFO] [1794014727.495872898] [do100_0000.controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[gazebo-3] [INFO] [1794014727.532865915] [do100_0000.controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[gazebo-3] [INFO] [1794014727.533298745] [do100_0000.controller_manager]: Loading controller 'joint_state_broadcaster'
+[gazebo-3] [WARN] [1794014727.555566274] [do100_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[gazebo-3] [INFO] [1794014727.555672204] [do100_0000.controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /home/ws3/.ros/omni_workshop/clearpath/platform/config/control.yaml --ros-args --remap ~/odom:=platform/odom --remap ~/cmd_vel:=platform/cmd_vel --remap /tf:=tf --remap /tf_static:=tf_static --remap /diagnostics:=diagnostics --remap /dynamic_joint_states:=platform/dynamic_joint_states --remap joint_states:=platform/joint_states --remap ~/reference:=platform/cmd_vel --remap ~/odometry:=platform/odom -p use_sim_time:=true --param use_sim_time:=true 
+[spawner-12] [INFO] [1794014727.617456084] [do100_0000.spawner_joint_state_broadcaster]: Loaded joint_state_broadcaster
+[gazebo-3] [INFO] [1794014727.634747206] [do100_0000.controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-3] [INFO] [1794014727.635378521] [do100_0000.joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[gazebo-3] [INFO] [1794014727.659318758] [do100_0000.controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[parameter_bridge-22] [INFO] [1794014727.776737519] [do100_0000.sensors.lidar2d_0_gz_bridge]: Creating GZ->ROS Bridge: [/do100_0000/sensors/lidar2d_0/scan (gz.msgs.LaserScan) -> lidar2d_0/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-20] [INFO] [1794014727.834512644] [do100_0000.imu_0_gz_bridge]: Creating GZ->ROS Bridge: [/do100_0000/sensors/imu_0/data (gz.msgs.IMU) -> sensors/imu_0/data (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-20] [INFO] [1794014727.843035011] [do100_0000.imu_0_gz_bridge]: Creating GZ->ROS Bridge: [/do100_0000/sensors/imu_0/data_raw (gz.msgs.IMU) -> sensors/imu_0/data_raw (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-24] [INFO] [1794014727.871181277] [do100_0000.sensors.lidar2d_1_gz_bridge]: Creating GZ->ROS Bridge: [/do100_0000/sensors/lidar2d_1/scan (gz.msgs.LaserScan) -> lidar2d_1/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[gazebo-3] [WARN] [1794014729.481719712] [do100_0000.gz_ros_control]:  Desired controller update period (0.05 s) is slower than the gazebo simulation period (0.003 s).
+[gazebo-3] [INFO] [1794014729.484559329] [do100_0000.controller_manager]: Successfully switched controllers!
+[imu_filter_madgwick_node-21] [WARN] [1794014729.488630222] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-3] libEGL warning: Not allowed to force software rendering when API explicitly selects a hardware device.
+[gazebo-3] libEGL warning: failed to open /dev/dri/card0: Permission denied
+[gazebo-3] 
+[gazebo-3] [1;33m[Wrn] [Component.hh:144] [0m[1;33mTrying to serialize component with data type [[0m[1;33mSt6vectorIdSaIdEE[0m[1;33m], which doesn't have [0m[1;33m`operator<<`. Component will not be serialized.[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WheelSlip[0m[1;36m] for entity [[0m[1;36m35[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WheelSlip[0m[1;36m] for entity [[0m[1;36m35[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WheelSlip[0m[1;36m] for entity [[0m[1;36m35[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WheelSlip[0m[1;36m] for entity [[0m[1;36m35[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz_ros2_control::GazeboSimROS2ControlPlugin[0m[1;36m] for entity [[0m[1;36m35[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::PosePublisher[0m[1;36m] for entity [[0m[1;36m35[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [UserCommands.cc:1093] [0m[1;36mCreated entity [[0m[1;36m35[0m[1;36m] named [[0m[1;36mdo100_0000/robot[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-3] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mbase_link_fixed_joint_lump__chassis_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:953] [0m[1;36mInitialization needed[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:349] [0m[1;36mInitializing render context[0m[1;36m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mgz-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [ImuSensor.cc:150] [0m[1;36mIMU data for [[0m[1;36mdo100_0000/robot::base_link::imu_0[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/imu_0/data_raw[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:627] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m7[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m4[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m5[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [RenderUtil.cc:2646] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:391] [0m[1;36mRendering Thread initialized[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:953] [0m[1;36mInitialization needed[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Lidar.cc:139] [0m[1;36mLaser scans for [[0m[1;36mdo100_0000/robot::base_link::lidar2d_0[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/lidar2d_0/scan[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [GpuLidarSensor.cc:164] [0m[1;36mLidar points for [[0m[1;36mdo100_0000/robot::base_link::lidar2d_0[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/lidar2d_0/scan/points[0m[1;36m][0m[1;36m[0m
+[imu_filter_madgwick_node-21] [WARN] [1794014731.793551250] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-21] [WARN] [1794014731.819744863] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-21] [WARN] [1794014731.961052564] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[spawner-12] [INFO] [1794014731.966508365] [do100_0000.spawner_joint_state_broadcaster]: Configured and activated joint_state_broadcaster
+[gazebo-3] [INFO] [1794014731.983863688] [do100_0000.controller_manager]: Loading controller : 'platform_velocity_controller' of type 'mecanum_drive_controller/MecanumDriveController'
+[gazebo-3] [INFO] [1794014731.983911899] [do100_0000.controller_manager]: Loading controller 'platform_velocity_controller'
+[imu_filter_madgwick_node-21] [WARN] [1794014731.983901946] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-3] [WARN] [1794014732.003250627] [do100_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[gazebo-3] [INFO] [1794014732.003563229] [do100_0000.controller_manager]: Controller 'platform_velocity_controller' node arguments: --ros-args --params-file /home/ws3/.ros/omni_workshop/clearpath/platform/config/control.yaml --ros-args --remap ~/odom:=platform/odom --remap ~/cmd_vel:=platform/cmd_vel --remap /tf:=tf --remap /tf_static:=tf_static --remap /diagnostics:=diagnostics --remap /dynamic_joint_states:=platform/dynamic_joint_states --remap joint_states:=platform/joint_states --remap ~/reference:=platform/cmd_vel --remap ~/odometry:=platform/odom -p use_sim_time:=true --param use_sim_time:=true 
+[imu_filter_madgwick_node-21] [WARN] [1794014732.129060203] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-3] [1;36m[Dbg] [Lidar.cc:139] [0m[1;36mLaser scans for [[0m[1;36mdo100_0000/robot::base_link::lidar2d_1[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/lidar2d_1/scan[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [GpuLidarSensor.cc:164] [0m[1;36mLidar points for [[0m[1;36mdo100_0000/robot::base_link::lidar2d_1[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/lidar2d_1/scan/points[0m[1;36m][0m[1;36m[0m
+[spawner-12] [INFO] [1794014732.272004302] [do100_0000.spawner_joint_state_broadcaster]: Loaded platform_velocity_controller
+[gazebo-3] [INFO] [1794014732.272601814] [do100_0000.controller_manager]: Configuring controller: 'platform_velocity_controller'
+[imu_filter_madgwick_node-21] [WARN] [1794014732.274557753] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-3] [INFO] [1794014732.290014435] [do100_0000.platform_velocity_controller]: MecanumDriveController configured successfully
+[imu_filter_madgwick_node-21] [WARN] [1794014732.414155981] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-21] [WARN] [1794014732.536991850] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-3] [INFO] [1794014732.544507145] [do100_0000.controller_manager]: Activating controllers: [ platform_velocity_controller ]
+[imu_filter_madgwick_node-21] [WARN] [1794014732.557059680] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[INFO] [bash-5]: process has finished cleanly [pid 15483]
+[INFO] [gazebo-27]: process started with pid [15959]
+[imu_filter_madgwick_node-21] [WARN] [1794014732.927737413] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-3] [INFO] [1794014732.953277907] [do100_0000.controller_manager]: Successfully switched controllers!
+[imu_filter_madgwick_node-21] [WARN] [1794014732.957671241] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-21] [WARN] [1794014733.079429299] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-27] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ubuntu'
+[imu_filter_madgwick_node-21] [INFO] [1794014733.211428088] [do100_0000.imu_filter_madgwick]: First IMU message received.
+[spawner-12] [INFO] [1794014733.227641750] [do100_0000.spawner_joint_state_broadcaster]: Configured and activated platform_velocity_controller
+[gazebo-27] [1;32m[Msg] [0m[1;32mGazebo Sim GUI    v[0m[1;32m8.15.0[0m[1;32m[0m
+[gazebo-27] [1;36m[Dbg] [Application.cc:96] [0m[1;36mInitializing application.[0m[1;36m[0m
+[gazebo-27] [1;36m[Dbg] [Application.cc:170] [0m[1;36mQt using OpenGL graphics interface[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:657] [0m[1;36mCreate main window[0m[1;36m[0m
+[INFO] [spawner-12]: process has finished cleanly [pid 15624]
+[gazebo-27] [1;36m[GUI] [Dbg] [PathManager.cc:68] [0m[1;36mRequesting resource paths through [[0m[1;36m/gazebo/resource_paths/get[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Gui.cc:356] [0m[1;36mGUI requesting list of world names. The server may be busy [0m[1;36mdownloading resources. Please be patient.[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [PathManager.cc:57] [0m[1;36mReceived resource paths.[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [GuiRunner.cc:149] [0m[1;36mRequesting initial state from [[0m[1;36m/world/arena/state[0m[1;36m]...[0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading config [[0m[1;32m/ws/contenedor/gui_arena.config[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMinimalScene[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32m3D View[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMinimalScene[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libMinimalScene.so[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mGzSceneManager[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScene Manager[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mGzSceneManager[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libGzSceneManager.so[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mInteractiveViewControl[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view controller topic advertised on [[0m[1;32m/gui/camera/view_control[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera reference visual topic advertised on [[0m[1;32m/gui/camera/view_control/reference_visual[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view control sensitivity advertised on [[0m[1;32m/gui/camera/view_control/sensitivity[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mInteractive view control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mInteractiveViewControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libInteractiveViewControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mCameraTracking[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mCamera tracking[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mCameraTracking[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libCameraTracking.so[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMarkerManager[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/arena/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mMarker Manager[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [Component.hh:189] [0m[1;33mTrying to deserialize component with data type [[0m[1;33mSt6vectorIdSaIdEE[0m[1;33m], which doesn't have [0m[1;33m`operator>>`. Component will not be deserialized.[0m[1;33m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMarkerManager[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libMarkerManager.so[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldControl[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing world control service [[0m[1;32m/world/arena/control[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/arena/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [WorldControl.cc:237] [0m[1;36mUsing an event to share WorldControl msgs with the server[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libWorldControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldStats[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/arena/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld stats[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldStats[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libWorldStats.so[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:398] [0m[1;36mLoading window config[0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing server control service [[0m[1;32m/server_control[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:671] [0m[1;36mApplying config[0m[1;36m[0m
+[gazebo-27] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="lidar2d_0"]/gz_frame_id:<data-string>:L172]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-27] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="lidar2d_1"]/gz_frame_id:<data-string>:L201]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-27] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="imu_0"]/gz_frame_id:<data-string>:L209]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-27] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding loop detected for property "x"[0m[1;33m[0m
+[gazebo-27] libEGL warning: Not allowed to force software rendering when API explicitly selects a hardware device.
+[gazebo-27] libEGL warning: failed to open /dev/dri/card0: Permission denied
+[gazebo-27] 
+[gazebo-3] [1;36m[Dbg] [EntityComponentManager.cc:1710] [0m[1;36mUpdated state thread iterators: [0m[1;36m4[0m[1;36m threads processing around [0m[1;36m17[0m[1;36m entities each.[0m[1;36m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [Ogre2RenderTarget.cc:668] [0m[1;33mAnti-aliasing level of '[0m[1;33m[0m[1;33m' [0m[1;33mis not supported; valid FSAA levels are: [0m[1;33m[ 0 ][0m[1;33m. Setting to 1[0m[1;33m[0m
+[bash-7] [INFO] [1794014737.474944271] [spawner_wheel_velocity_controller]: Setting controller param "params_file" to "['/ws/install/omni_workshop/share/omni_workshop/config/wheel_controller.yaml']" for wheel_velocity_controller
+[bash-7] [INFO] [1794014737.592205202] [spawner_wheel_velocity_controller]: Setting controller param "type" to "forward_command_controller/ForwardCommandController" for wheel_velocity_controller
+[gazebo-3] [INFO] [1794014737.599638492] [do100_0000.controller_manager]: Loading controller : 'wheel_velocity_controller' of type 'forward_command_controller/ForwardCommandController'
+[gazebo-3] [INFO] [1794014737.599687495] [do100_0000.controller_manager]: Loading controller 'wheel_velocity_controller'
+[gazebo-3] [WARN] [1794014737.609613927] [do100_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[gazebo-3] [INFO] [1794014737.609713890] [do100_0000.controller_manager]: Controller 'wheel_velocity_controller' node arguments: --ros-args --params-file /home/ws3/.ros/omni_workshop/clearpath/platform/config/control.yaml --ros-args --remap ~/odom:=platform/odom --remap ~/cmd_vel:=platform/cmd_vel --remap /tf:=tf --remap /tf_static:=tf_static --remap /diagnostics:=diagnostics --remap /dynamic_joint_states:=platform/dynamic_joint_states --remap joint_states:=platform/joint_states --remap ~/reference:=platform/cmd_vel --remap ~/odometry:=platform/odom -p use_sim_time:=true --params-file /ws/install/omni_workshop/share/omni_workshop/config/wheel_controller.yaml --param use_sim_time:=true 
+[bash-7] [INFO] [1794014737.897605802] [spawner_wheel_velocity_controller]: Loaded wheel_velocity_controller
+[gazebo-3] [INFO] [1794014737.904403870] [do100_0000.controller_manager]: Configuring controller: 'wheel_velocity_controller'
+[gazebo-3] [INFO] [1794014737.910598480] [do100_0000.wheel_velocity_controller]: configure successful
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-27] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-3] [WARN] [1794014741.493784949] [do100_0000.controller_manager]: Controller Manager: to switch controllers you need to specify a strictness level of controller_manager_msgs::SwitchController::STRICT (2) or ::BEST_EFFORT (1). When unspecified, the default is BEST_EFFORT
+[gazebo-3] [INFO] [1794014741.496645094] [do100_0000.controller_manager]: Activating controllers: [ wheel_velocity_controller ]
+[gazebo-3] [INFO] [1794014741.496652248] [do100_0000.controller_manager]: Deactivating controllers: [ platform_velocity_controller ]
+[gazebo-3] [INFO] [1794014741.789607536] [do100_0000.controller_manager]: Requested controller switch from non-realtime loop
+[gazebo-3] [INFO] [1794014741.802770065] [do100_0000.wheel_velocity_controller]: activate successful
+[gazebo-3] [INFO] [1794014741.802822855] [do100_0000.controller_manager]: Deactivated controllers: [ platform_velocity_controller ]
+[gazebo-3] [INFO] [1794014741.802833114] [do100_0000.controller_manager]: Activated controllers: [ wheel_velocity_controller ]
+[gazebo-3] [INFO] [1794014741.802838545] [do100_0000.controller_manager]: Successfully switched controllers!
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[bash-7] Successfully switched controllers!
+[bash-7] Deactivated controllers: [ platform_velocity_controller ]
+[bash-7] Activated controllers: [ wheel_velocity_controller ]
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mfront_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_left_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[gazebo-3] [1;31m[Err] [JointFeatures.cc:157] [0m[1;31mInvalid joint velocity value [[0m[1;31mnan[0m[1;31m] commanded on joint [[0m[1;31mrear_right_wheel_joint[0m[1;31m DOF [0m[1;31m0[0m[1;31m]. The command will be ignored[0m
+[bash-7] Wheel controller active: /do100_0000/wheel_velocity_controller/commands
+[INFO] [bash-7]: process has finished cleanly [pid 15487]
+[plotter-6] [INFO] [1794014745.183518782] [plotter]: Publishing wheel odometry for Clearpath's EKF
+[plotter-6] [INFO] [1794014816.154952010] [plotter]: Run in progress ...
+[plotter-6] [INFO] [1794014936.373957719] [plotter]: Samples: 400; stale: 0
+[plotter-6] [INFO] [1794015065.191719730] [plotter]: Samples: 800; stale: 0
+[plotter-6] [INFO] [1794015190.059668097] [plotter]: Samples: 1200; stale: 0
+[plotter-6] [INFO] [1794015392.629053633] [plotter]: Samples: 1600; stale: 0
+[plotter-6] [INFO] [1794015523.868032559] [plotter]: actual: RMS 0.069 m, odometry: RMS 0.025 m. Plot saved to /home/ws3/workshop_results/trajectory_20261106_203843.png
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [gazebo-27]: sending signal 'SIGINT' to process[gazebo-27]
+[INFO] [gazebo-27]: process has finished cleanly [pid 15959]
+[INFO] [static_transform_publisher-25]: sending signal 'SIGINT' to process[static_transform_publisher-25]
+[INFO] [parameter_bridge-24]: sending signal 'SIGINT' to process[parameter_bridge-24]
+[INFO] [static_transform_publisher-23]: sending signal 'SIGINT' to process[static_transform_publisher-23]
+[ERROR] [gazebo-3]: process has died [pid 15480, exit code 137, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim /ws/install/worlds/share/worlds/worlds/arena.sdf -s -r -v 4 --force-version 8'].
+[INFO] [parameter_bridge-22]: sending signal 'SIGINT' to process[parameter_bridge-22]
+[INFO] [imu_filter_madgwick_node-21]: sending signal 'SIGINT' to process[imu_filter_madgwick_node-21]
+[INFO] [parameter_bridge-24]: process has finished cleanly [pid 15678]
+[INFO] [parameter_bridge-20]: sending signal 'SIGINT' to process[parameter_bridge-20]
+[INFO] [parameter_bridge-19]: sending signal 'SIGINT' to process[parameter_bridge-19]
+[INFO] [parameter_bridge-22]: process has finished cleanly [pid 15676]
+[INFO] [parameter_bridge-18]: sending signal 'SIGINT' to process[parameter_bridge-18]
+[INFO] [teleop_node-17]: sending signal 'SIGINT' to process[teleop_node-17]
+[INFO] [parameter_bridge-20]: process has finished cleanly [pid 15642]
+[INFO] [parameter_bridge-19]: process has finished cleanly [pid 15641]
+[INFO] [joy_linux_node-16]: sending signal 'SIGINT' to process[joy_linux_node-16]
+[INFO] [twist_mux-15]: sending signal 'SIGINT' to process[twist_mux-15]
+[INFO] [marker_server-14]: sending signal 'SIGINT' to process[marker_server-14]
+[INFO] [parameter_bridge-18]: process has finished cleanly [pid 15640]
+[INFO] [ekf_node-13]: sending signal 'SIGINT' to process[ekf_node-13]
+[INFO] [robot_state_publisher-11]: sending signal 'SIGINT' to process[robot_state_publisher-11]
+[INFO] [plotter-6]: sending signal 'SIGINT' to process[plotter-6]
+[INFO] [parameter_bridge-2]: sending signal 'SIGINT' to process[parameter_bridge-2]
+[INFO] [rviz2-1]: sending signal 'SIGINT' to process[rviz2-1]
+[gazebo-3] [INFO] [1794015643.395003175] [do100_0000.controller_manager.pal_statistics]: Async messages lost 0
+[gazebo-3] [INFO] [1794015643.395295479] [do100_0000.controller_manager.pal_statistics]: publish_async_failures_ 0
+[gazebo-3] [INFO] [1794015643.421940045] [do100_0000.controller_manager.pal_statistics]: Async messages lost 0
+[gazebo-3] [INFO] [1794015643.422004597] [do100_0000.controller_manager.pal_statistics]: publish_async_failures_ 9
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mgz-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:749] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:1037] [0m[1;36mCreating texture node render interface for OpenGL[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MarkerManager.cc:169] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list service.[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MarkerManager.cc:179] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list.[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MarkerManager.cc:189] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m_array.[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [CameraTracking.cc:205] [0m[1;36mCameraTrackingPrivate plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to service on [[0m[1;32m/gui/move_to[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow service on [[0m[1;32m/gui/follow[0m[1;32m] (deprecated)[0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking topic on [[0m[1;32m/gui/track[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking status topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to pose service on [[0m[1;32m/gui/move_to/pose[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera pose topic advertised on [[0m[1;32m/gui/camera/pose[0m[1;32m][0m[1;32m[0m
+[gazebo-27] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow offset service on [[0m[1;32m/gui/follow/offset[0m[1;32m] (deprecated)[0m[1;32m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [InteractiveViewControl.cc:176] [0m[1;36mInteractiveViewControl plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [SignalHandler.cc:142] [0m[1;36mReceived signal[[0m[1;36m15[0m[1;36m].[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Gui.cc:536] [0m[1;36mShutting down gz-sim-gui[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [Application.cc:237] [0m[1;36mTerminating application.[0m[1;36m[0m
+[gazebo-27] [1;36m[GUI] [Dbg] [MinimalScene.cc:841] [0m[1;36mDestroy scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SignalHandler.cc:142] [0m[1;36mReceived signal[[0m[1;36m15[0m[1;36m].[0m
+[gazebo-3] [1;36m[Dbg] [ServerPrivate.cc:122] [0m[1;36mServer received signal[[0m[1;36m15[0m[1;36m][0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:565] [0m[1;36mSensorsPrivate::Stop[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:551] [0m[1;36mSensorsPrivate::RenderThread stopped[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [gz.cc:434] [0m[1;36mShutting down gz-sim-server[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m4[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m5[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:565] [0m[1;36mSensorsPrivate::Stop[0m[1;36m[0m
+[INFO] [launch]: process[gazebo-27] was required: shutting down launched system
+[static_transform_publisher-25] [INFO] [1794015644.454198784] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-24] [INFO] [1794015644.468182382] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[gazebo-3] Killed
+[static_transform_publisher-23] [INFO] [1794015644.533732702] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-22] [INFO] [1794015644.543763158] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[imu_filter_madgwick_node-21] [INFO] [1794015644.564487382] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-20] [INFO] [1794015644.570663057] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-19] [INFO] [1794015644.593533699] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-18] [INFO] [1794015644.647518779] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[teleop_node-17] [INFO] [1794015644.677847707] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[joy_linux_node-16] [INFO] [1794015644.682645400] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[joy_linux_node-16] [INFO] [1794015644.684390418] [do100_0000.joy_node]: joy_node shut down.
+[twist_mux-15] [INFO] [1794015644.701213648] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[marker_server-14] [INFO] [1794015644.722748674] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ekf_node-13] [INFO] [1794015644.737188753] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-11] [INFO] [1794015644.752951593] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-2] [INFO] [1794015644.807248419] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[rviz2-1] [INFO] [1794015644.838493615] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [parameter_bridge-2]: process has finished cleanly [pid 15479]
+[INFO] [static_transform_publisher-25]: process has finished cleanly [pid 15683]
+[INFO] [static_transform_publisher-23]: process has finished cleanly [pid 15677]
+[INFO] [imu_filter_madgwick_node-21]: process has finished cleanly [pid 15668]
+[INFO] [joy_linux_node-16]: process has finished cleanly [pid 15629]
+[INFO] [marker_server-14]: process has finished cleanly [pid 15626]
+[INFO] [robot_state_publisher-11]: process has finished cleanly [pid 15623]
+[INFO] [twist_mux-15]: process has finished cleanly [pid 15627]
+[INFO] [teleop_node-17]: process has finished cleanly [pid 15631]
+[INFO] [ekf_node-13]: process has finished cleanly [pid 15625]
+[ERROR] [rviz2-1]: process has died [pid 15478, exit code -11, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /ws/contenedor/workshop_grabacion.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_hxwlhom_ -r /tf:=/do100_0000/tf -r /tf_static:=/do100_0000/tf_static'].
+[INFO] [plotter-6]: process has finished cleanly [pid 15486]

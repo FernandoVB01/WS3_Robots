@@ -1,0 +1,45 @@
+{"event": "exploration_started", "sim_time": 73.0, "wall_time_unix": 1794016535.3329296, "home": [2.0757998992739235e-06, 1.5143073550864173e-05]}
+{"event": "map_evaluated", "sim_time": 73.0, "wall_time_unix": 1794016535.425457, "width": 214, "height": 133, "resolution": 0.05000000074505806, "known_free_cells": 2369, "occupied_cells": 192, "frontier_clusters": 2, "chosen_goal": [-0.2714590902691212, 0.6005934180351793]}
+{"event": "goal_sent", "sim_time": 73.0, "wall_time_unix": 1794016535.4256332, "x": -0.2714590902691212, "y": 0.6005934180351793, "returning_home": false}
+{"event": "goal_result", "sim_time": 78.525, "wall_time_unix": 1794016596.7470791, "status": 4, "x": -0.2714590902691212, "y": 0.6005934180351793, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 82.0, "wall_time_unix": 1794016646.3030255, "width": 215, "height": 133, "resolution": 0.05000000074505806, "known_free_cells": 5059, "occupied_cells": 415, "frontier_clusters": 1, "chosen_goal": [0.495771179978199, 1.0005934239956438]}
+{"event": "goal_sent", "sim_time": 82.0, "wall_time_unix": 1794016646.3033397, "x": 0.495771179978199, "y": 1.0005934239956438, "returning_home": false}
+{"event": "goal_result", "sim_time": 90.576, "wall_time_unix": 1794016719.3425372, "status": 6, "x": 0.495771179978199, "y": 1.0005934239956438, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 94.0, "wall_time_unix": 1794016743.6157918, "width": 218, "height": 133, "resolution": 0.05000000074505806, "known_free_cells": 5970, "occupied_cells": 493, "frontier_clusters": 3, "chosen_goal": [1.345771192644186, 1.1828202325174688]}
+{"event": "goal_sent", "sim_time": 94.0, "wall_time_unix": 1794016743.6160357, "x": 1.345771192644186, "y": 1.1828202325174688, "returning_home": false}
+{"event": "goal_result", "sim_time": 95.0, "wall_time_unix": 1794016751.1051269, "status": 6, "x": 1.345771192644186, "y": 1.1828202325174688, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 98.0, "wall_time_unix": 1794016773.7326777, "width": 218, "height": 134, "resolution": 0.05000000074505806, "known_free_cells": 6183, "occupied_cells": 535, "frontier_clusters": 3, "chosen_goal": [2.195771205310173, 1.2034156341840987]}
+{"event": "goal_sent", "sim_time": 98.0, "wall_time_unix": 1794016773.7332897, "x": 2.195771205310173, "y": 1.2034156341840987, "returning_home": false}
+{"event": "goal_result", "sim_time": 105.3, "wall_time_unix": 1794016835.40078, "status": 4, "x": 2.195771205310173, "y": 1.2034156341840987, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 109.0, "wall_time_unix": 1794016860.4283051, "width": 218, "height": 134, "resolution": 0.05000000074505806, "known_free_cells": 7158, "occupied_cells": 643, "frontier_clusters": 4, "chosen_goal": [3.04577121797616, 1.3034156356742148]}
+{"event": "goal_sent", "sim_time": 109.0, "wall_time_unix": 1794016860.4293475, "x": 3.04577121797616, "y": 1.3034156356742148, "returning_home": false}
+{"event": "goal_result", "sim_time": 115.998, "wall_time_unix": 1794016907.1512465, "status": 4, "x": 3.04577121797616, "y": 1.3034156356742148, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 119.0, "wall_time_unix": 1794016925.6938663, "width": 220, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 9084, "occupied_cells": 798, "frontier_clusters": 3, "chosen_goal": [2.6957712127607536, 0.5034156237532859]}
+{"event": "goal_sent", "sim_time": 119.0, "wall_time_unix": 1794016925.6946568, "x": 2.6957712127607536, "y": 0.5034156237532859, "returning_home": false}
+{"event": "goal_result", "sim_time": 122.482, "wall_time_unix": 1794016950.7253323, "status": 4, "x": 2.6957712127607536, "y": 0.5034156237532859, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 126.0, "wall_time_unix": 1794016973.2047834, "width": 220, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 10536, "occupied_cells": 869, "frontier_clusters": 3, "chosen_goal": [3.04577121797616, -1.3465844038138624]}
+{"event": "goal_sent", "sim_time": 126.0, "wall_time_unix": 1794016973.2071319, "x": 3.04577121797616, "y": -1.3465844038138624, "returning_home": false}
+{"event": "goal_result", "sim_time": 129.95, "wall_time_unix": 1794017005.0219662, "status": 6, "x": 3.04577121797616, "y": -1.3465844038138624, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 133.0, "wall_time_unix": 1794017027.7260342, "width": 220, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 12579, "occupied_cells": 1012, "frontier_clusters": 6, "chosen_goal": [3.2457712209563923, -2.1965844164798494]}
+{"event": "goal_sent", "sim_time": 133.0, "wall_time_unix": 1794017027.7266974, "x": 3.2457712209563923, "y": -2.1965844164798494, "returning_home": false}
+{"event": "goal_result", "sim_time": 137.4, "wall_time_unix": 1794017059.9447637, "status": 6, "x": 3.2457712209563923, "y": -2.1965844164798494, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 141.0, "wall_time_unix": 1794017085.4179902, "width": 220, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 13024, "occupied_cells": 1066, "frontier_clusters": 7, "chosen_goal": [5.745771258209295, 0.5034156237532859]}
+{"event": "goal_sent", "sim_time": 141.0, "wall_time_unix": 1794017085.4196234, "x": 5.745771258209295, "y": 0.5034156237532859, "returning_home": false}
+{"event": "goal_result", "sim_time": 144.692, "wall_time_unix": 1794017112.6771798, "status": 6, "x": 5.745771258209295, "y": 0.5034156237532859, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 148.0, "wall_time_unix": 1794017149.130235, "width": 220, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 13158, "occupied_cells": 1074, "frontier_clusters": 6, "chosen_goal": [5.0957712485235405, 1.1034156326939826]}
+{"event": "goal_sent", "sim_time": 148.0, "wall_time_unix": 1794017149.1318645, "x": 5.0957712485235405, "y": 1.1034156326939826, "returning_home": false}
+{"event": "exploration_resumed", "sim_time": 0.0, "wall_time_unix": 1794017167.7854912, "previous_goals": 9}
+{"event": "map_evaluated", "sim_time": 150.0, "wall_time_unix": 1794017177.3742738, "width": 220, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 13194, "occupied_cells": 1075, "frontier_clusters": 6, "chosen_goal": [3.845771229897089, 1.0034156312038665]}
+{"event": "goal_sent", "sim_time": 150.0, "wall_time_unix": 1794017177.374886, "x": 3.845771229897089, "y": 1.0034156312038665, "returning_home": false}
+{"event": "goal_result", "sim_time": 163.48, "wall_time_unix": 1794017293.3675203, "status": 4, "x": 3.845771229897089, "y": 1.0034156312038665, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 167.0, "wall_time_unix": 1794017343.0571084, "width": 220, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 13747, "occupied_cells": 1115, "frontier_clusters": 6, "chosen_goal": [7.69577128726656, 1.8534156438698535]}
+{"event": "goal_sent", "sim_time": 167.0, "wall_time_unix": 1794017343.0648584, "x": 7.69577128726656, "y": 1.8534156438698535, "returning_home": false}
+{"event": "goal_result", "sim_time": 192.768, "wall_time_unix": 1794017575.704843, "status": 4, "x": 7.69577128726656, "y": 1.8534156438698535, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 196.0, "wall_time_unix": 1794017598.1116402, "width": 223, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 18295, "occupied_cells": 1658, "frontier_clusters": 5, "chosen_goal": [7.745771288011618, 3.153415663241363]}
+{"event": "goal_sent", "sim_time": 196.0, "wall_time_unix": 1794017598.1121712, "x": 7.745771288011618, "y": 3.153415663241363, "returning_home": false}
+{"event": "goal_result", "sim_time": 205.826, "wall_time_unix": 1794017667.5344768, "status": 4, "x": 7.745771288011618, "y": 3.153415663241363, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 209.0, "wall_time_unix": 1794017688.570776, "width": 223, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 18519, "occupied_cells": 1690, "frontier_clusters": 5, "chosen_goal": [6.39577126789505, 6.253415709434963]}
+{"event": "goal_sent", "sim_time": 209.0, "wall_time_unix": 1794017688.5725303, "x": 6.39577126789505, "y": 6.253415709434963, "returning_home": false}
+{"event": "goal_result", "sim_time": 217.126, "wall_time_unix": 1794017759.053651, "status": 6, "x": 6.39577126789505, "y": 6.253415709434963, "returning_home": false}
+{"event": "map_evaluated", "sim_time": 221.0, "wall_time_unix": 1794017790.9813375, "width": 223, "height": 201, "resolution": 0.05000000074505806, "known_free_cells": 18541, "occupied_cells": 1706, "frontier_clusters": 5, "chosen_goal": [8.395771297697372, -1.7965844105193849]}
+{"event": "goal_sent", "sim_time": 221.0, "wall_time_unix": 1794017790.9883468, "x": 8.395771297697372, "y": -1.7965844105193849, "returning_home": false}

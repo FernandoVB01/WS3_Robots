@@ -4,7 +4,14 @@ Implementación para Jhon Frank Caicedo Coronel, Raziel Alejandro Espinoza Varga
 
 ## Estado
 
-Código preparado y cuatro pruebas numéricas aprobadas. **Pendiente ejecutar y validar en ROS 2 Jazzy / Gazebo Harmonic, generar los mapas y grabar los videos.** No se incluyen resultados experimentales inventados.
+**Trayectorias `prueba_omni` y `JRL` ejecutadas y verificadas en Jazzy/Harmonic.**
+Se compilaron 29 paquetes y pasaron cuatro pruebas numéricas. Se incluyen gráficas,
+CSV, métricas y videos reales de ambas trayectorias.
+
+**Mapeo en curso:** `office_0` tiene un mapa parcial y una grabación activa en la
+VM; `office_4` sigue pendiente. Este repositorio aún no es la entrega final.
+Leer [CONTINUAR_AQUI.md](CONTINUAR_AQUI.md) antes de iniciar o detener procesos.
+El informe LaTeX se preparará al finalizar todas las pruebas.
 
 ## Incluye
 
@@ -13,6 +20,11 @@ Código preparado y cuatro pruebas numéricas aprobadas. **Pendiente ejecutar y 
 - Trayectorias `prueba_omni` y `JRL`.
 - Comparación de referencia, posición de Gazebo y odometría; exportación PNG, CSV y métricas JSON.
 - Informe y guía para mapear `office_0` y `office_4`.
+
+## Entorno utilizado
+
+La VM anfitriona tiene Ubuntu 26.04.1/Lyrical. Se ejecutó el taller en un contenedor
+Ubuntu 24.04.5/Jazzy/Gazebo Harmonic 8.15.0. Ver [guía del contenedor](contenedor/LEEME.md).
 
 ## Ejecutar en Ubuntu 24.04
 
@@ -29,7 +41,7 @@ Si `~/WS3_proyecto` ya existe, utiliza otra ubicación o tu copia existente; no 
 ## Documentación
 
 - [Guía de ejecución, mapeo y entrega](LEEME_EJECUCION.md)
-- [Informe y resultados pendientes](INFORME.md)
+- [Informe con resultados de trayectorias](INFORME.md)
 - [Validación y procedencia](VALIDACION.md)
 - [README original del profesor](src/README.md)
 

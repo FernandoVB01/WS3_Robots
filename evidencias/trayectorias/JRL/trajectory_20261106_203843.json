@@ -1,0 +1,24 @@
+{
+  "actual_vs_desired": {
+    "rmse_m": 0.06945750156738328,
+    "max_m": 0.12918540148999708,
+    "final_m": 0.11137401313383435
+  },
+  "odom_vs_desired": {
+    "rmse_m": 0.024773095455360536,
+    "max_m": 0.04414273334839311,
+    "final_m": 0.0202824936464225
+  },
+  "odom_vs_actual": {
+    "rmse_m": 0.05040864575555282,
+    "max_m": 0.09574258789843725,
+    "final_m": 0.09228657654475156
+  },
+  "data_quality": {
+    "stale_clock_or_wheel_samples": 0,
+    "max_clock_lag_s": 0.02400000000000091,
+    "max_wheel_lag_s": 0.07200000000000273,
+    "samples": 1821,
+    "fresh": true
+  }
+}

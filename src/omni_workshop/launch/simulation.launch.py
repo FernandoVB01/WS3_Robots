@@ -9,7 +9,10 @@
 # the lidars' SensorTopic component and the "Visualize Lidar" panel cannot find the
 # sensor, so it draws the rays fixed at the world origin.
 import os
+import re
 import shutil
+import subprocess
+import time
 
 import yaml
 from ament_index_python.packages import get_package_share_directory
@@ -34,6 +37,8 @@ ARGUMENTS = [
     DeclareLaunchArgument('world', default_value='office_3', choices=list(WORLD_LIST),
                           description='World from config/worlds.yaml'),
     DeclareLaunchArgument('rviz', default_value='false', choices=['true', 'false']),
+    DeclareLaunchArgument('generate', default_value='true', choices=['true', 'false']),
+    DeclareLaunchArgument('gui_config', default_value=os.path.join(PKG, 'config', 'gui.config')),
     # Empty: use the world's start pose from config/worlds.yaml
     DeclareLaunchArgument('x', default_value=''),
     DeclareLaunchArgument('y', default_value=''),
@@ -77,10 +82,11 @@ def launch_world(context):
     wait_robot = ExecuteProcess(
         cmd=['bash', '-c', f'until gz topic -l | grep -q "/{NAMESPACE}/sensors/lidar2d_1/scan"; '
                            'do sleep 1; done'])
+    gui_config = LaunchConfiguration('gui_config').perform(context)
     gz_gui = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(gz_sim_launch),
         launch_arguments=[('gz_args', '-g -v 4 --gui-config '
-                           + os.path.join(PKG, 'config', 'gui.config')),
+                           + gui_config),
                           ('on_exit_shutdown', 'true')])
     gui_after_robot = RegisterEventHandler(
         OnProcessExit(target_action=wait_robot, on_exit=[gz_gui]))
@@ -88,8 +94,23 @@ def launch_world(context):
     # The server runs as 'sh -c ruby gz sim ...' and the shutdown signal does not
     # always reach the real process: without this an orphan server remains and
     # collides with the next launch.
-    kill_server = RegisterEventHandler(OnShutdown(on_shutdown=[ExecuteProcess(
-        cmd=['pkill', '-f', f'gz sim {sdf} -s'])]))
+    # ExecuteProcess will not start a new process once launch is shutting down.
+    # Run cleanup directly, once, and match only this launch's server and GUI.
+    def stop_gazebo(_context):
+        patterns = (
+            rf'^gz sim {re.escape(sdf)} -s( |$)',
+            rf'^gz sim -g -v 4 --gui-config {re.escape(gui_config)}( |$)',
+        )
+        for pattern in patterns:
+            subprocess.run(['pkill', '-TERM', '-f', pattern], check=False)
+        time.sleep(2.0)
+        # Qt/Ogre may remain alive after the wrapper exits; remove only leftovers.
+        for pattern in patterns:
+            subprocess.run(['pkill', '-KILL', '-f', pattern], check=False)
+        return []
+
+    kill_server = RegisterEventHandler(OnShutdown(
+        handle_once=True, on_shutdown=[OpaqueFunction(function=stop_gazebo)]))
 
     robot_spawn = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(os.path.join(pkg_clearpath_gz, 'launch',
@@ -97,6 +118,7 @@ def launch_world(context):
         launch_arguments=[('use_sim_time', 'true'),
                           ('world', world['gz_world']),
                           ('setup_path', SETUP_PATH),
+                          ('generate', LaunchConfiguration('generate')),
                           ('rviz', 'false'),
                           ('x', start['x']),
                           ('y', start['y']),

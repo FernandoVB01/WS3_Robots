@@ -47,17 +47,21 @@ Base: [repositorio del profesor](https://github.com/davatorr1009/workshop_03), c
 
 El modelo usa r = 0.05 m, lx = 0.285 m y ly = 0.1854 m. La trayectoria JRL mantiene la orientación del chasis y combina rectas y arcos. Incluye el acceso inicial, conexiones y algunos trazos recorridos dos veces: un robot que permanece en el suelo no puede levantar un lápiz entre letras.
 
-## Comparación experimental: completar después de ejecutar
+## Comparación experimental
 
-Estado: código preparado y pruebas numéricas locales; pendiente validación en ROS/Gazebo. No se han generado mapas ni grabado videos en esta preparación.
+Estado de la sesión del 6 de noviembre de 2026: 29 paquetes compilados y cuatro pruebas numéricas aprobadas en Jazzy. `prueba_omni` y JRL ejecutadas, grabadas y verificadas; los mapas siguen pendientes.
+
+Entorno real: VM VirtualBox con Ubuntu 26.04.1/Lyrical como anfitrión; el taller se ejecuta en un contenedor Ubuntu 24.04.5, ROS 2 Jazzy y Gazebo Harmonic 8.15.0. El contenedor comparte el kernel de la VM. La visualización usa Mesa llvmpipe por software y una pantalla de 1280 × 720 con Gazebo y RViz lado a lado. Los registros de versiones están en `evidencias/diagnostico/`.
 
 En RViz: blanco = deseada, azul = posición de Gazebo, naranja = odometría. En el PNG la referencia se dibuja negra discontinua. Los CSV contienen tiempo y coordenadas de las tres curvas. Los JSON resumen RMSE, error máximo y error final de posición, calculados sobre las muestras registradas. Las poses disponibles se emparejan al recibir la referencia, por lo que hay latencia de muestreo; no se hace sincronización exacta de sensores.
 
 | Ejecución | RMSE Gazebo–referencia [m] | RMSE odometría–referencia [m] | RMSE odometría–Gazebo [m] |
 |---|---|---|---|
-| prueba_omni | Pendiente | Pendiente | Pendiente |
-| JRL | Pendiente | Pendiente | Pendiente |
+| prueba_omni | 0.058909 | 0.012707 | 0.057430 |
+| JRL | 0.069458 | 0.024773 | 0.050409 |
 
-Después de ejecutar, copiar los valores de los JSON y comentar en qué tramos aumenta el error. Una separación entre odometría y Gazebo puede ser compatible con deslizamiento, errores de integración y latencias; la gráfica por sí sola no identifica una causa única.
+Se verificaron 403 muestras de `prueba_omni` (20.10 s) y 1821 de JRL (90.999 s). Los errores máximos Gazebo–referencia fueron 0.1040 m y 0.1292 m, y los finales 0.0896 m y 0.1114 m, respectivamente. En JRL las tres curvas conservan la forma de las letras; el error de Gazebo tiende a crecer durante el recorrido y presenta cambios alrededor de las transiciones entre segmentos. La odometría sigue más cerca de la referencia, con RMSE 0.0248 m frente a 0.0695 m de Gazebo. Esto es compatible con diferencias de contacto, integración y latencia en un control de lazo abierto; la gráfica no permite atribuir una causa única.
+
+La primera ejecución de JRL perdió actualización de odometría y se descartó. La repetición completa usa Cyclone DDS y registra cero muestras con reloj o ruedas desactualizados; los desfases máximos observados fueron 0.024 s para el reloj y 0.072 s para las ruedas. `prueba_omni` fue registrada con Fast DDS. Los CSV de ambas ejecuciones válidas tienen tiempos crecientes y valores finitos; sus métricas se recalcularon y coinciden con los JSON.
 
 Mapas previstos: `office_0` (11 × 9.75 m) y `office_4` (32 × 18.15 m), según el repositorio. Registrar áreas no exploradas y limitaciones observadas. Adjuntar las evidencias reales antes de entregar.

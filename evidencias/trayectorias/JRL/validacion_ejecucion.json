@@ -1,0 +1,16 @@
+{
+  "figure": "JRL",
+  "samples": 1821,
+  "last_sample_sim_s": 90.999,
+  "reference_duration_sim_s": 91.01390050082705,
+  "csv_finite": true,
+  "csv_time_strictly_increasing": true,
+  "metrics_recomputed_from_csv": true,
+  "controller_finished": true,
+  "middleware": "rmw_cyclonedds_cpp",
+  "video_duration_s": 744.0,
+  "video": "../../videos/02_JRL.mp4",
+  "csv": "trajectory_20261106_203843.csv",
+  "metrics": "trajectory_20261106_203843.json",
+  "stale_samples": 0
+}

@@ -224,12 +224,23 @@ class Plotter(Node):
             self.odom = actual
             self.t_wheels = None
             self.run = {'desired': [], 'actual': [], 'odometry': []}
+            self.data_quality = {'stale_clock_or_wheel_samples': 0,
+                                 'max_clock_lag_s': 0.0, 'max_wheel_lag_s': 0.0}
             self.paths = {k: Path() for k in self.run}
             self.get_logger().info('Run in progress ...')
         x0, y0, th0 = self.start
         xi, yi, thi = msg.pose.position.x, msg.pose.position.y, yaw(msg.pose.orientation)
         desired = (x0 + math.cos(th0) * xi - math.sin(th0) * yi,
                    y0 + math.sin(th0) * xi + math.cos(th0) * yi, th0 + thi)
+        # Reference callbacks can continue even if clock/joint-state delivery stops.
+        # Record that condition instead of presenting frozen odometry as valid data.
+        clock_lag = abs(t - self.get_clock().now().nanoseconds * 1e-9)
+        wheel_lag = max(0.0, t - self.t_wheels) if self.t_wheels is not None else 0.0
+        missing_wheels = self.t_wheels is None and bool(self.run['desired'])
+        self.data_quality['max_clock_lag_s'] = max(self.data_quality['max_clock_lag_s'], clock_lag)
+        self.data_quality['max_wheel_lag_s'] = max(self.data_quality['max_wheel_lag_s'], wheel_lag)
+        if clock_lag > 0.5 or wheel_lag > 0.5 or missing_wheels:
+            self.data_quality['stale_clock_or_wheel_samples'] += 1
         ref = (t, desired[0], desired[1])
         self.run['desired'].append(ref)
         self.run['actual'].append((t, actual[0], actual[1]))
@@ -238,6 +249,10 @@ class Plotter(Node):
                               ('actual', actual), ('odometry', self.odom)):
             self.paths[k].poses.append(pose_stamped(msg.header.stamp, x, y, th))
         self.last_ref = time.monotonic()
+        if len(self.run['desired']) % 400 == 0:
+            self.get_logger().info(
+                f"Samples: {len(self.run['desired'])}; stale: "
+                f"{self.data_quality['stale_clock_or_wheel_samples']}")
 
     def check_end(self):
         if self.run is not None and time.monotonic() - self.last_ref > 2.0:
@@ -303,6 +318,10 @@ class Plotter(Node):
             errors = [math.hypot(a[1] - b[1], a[2] - b[2]) for a, b in zip(first, second)]
             metrics[name] = {'rmse_m': math.sqrt(sum(e*e for e in errors) / len(errors)),
                              'max_m': max(errors), 'final_m': errors[-1]}
+        metrics['data_quality'] = dict(self.data_quality, samples=len(ref),
+                                     fresh=self.data_quality['stale_clock_or_wheel_samples'] == 0)
+        if not metrics['data_quality']['fresh']:
+            self.get_logger().error('Run contains stale clock or wheel data: do not accept these metrics.')
         with open(stem + '.json', 'w') as stream:
             json.dump(metrics, stream, indent=2)
         self.get_logger().info(f'{", ".join(summary)}. Plot saved to {path}')

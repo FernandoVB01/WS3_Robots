@@ -1,0 +1,71 @@
+test_basic_wheel_directions (test_model.ModelTests.test_basic_wheel_directions) ... ok
+test_rotated_reference (test_model.ModelTests.test_rotated_reference) ... ok
+test_round_trip (test_model.ModelTests.test_round_trip) ... ok
+test_trajectory_continuity_and_clearance (test_model.ModelTests.test_trajectory_continuity_and_clearance) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.012s
+
+OK
+Starting >>> clearpath_manipulators_description
+Starting >>> clearpath_platform_msgs
+Finished <<< clearpath_manipulators_description [3.52s]
+Starting >>> clearpath_bt_joy
+Finished <<< clearpath_bt_joy [2.37s]
+Starting >>> clearpath_config
+Finished <<< clearpath_config [2.01s]
+Starting >>> clearpath_mounts_description
+Finished <<< clearpath_mounts_description [1.77s]
+Starting >>> clearpath_platform_description
+Finished <<< clearpath_platform_description [4.98s]
+Starting >>> clearpath_sensors_description
+Finished <<< clearpath_sensors_description [2.64s]
+Starting >>> clearpath_control
+Finished <<< clearpath_control [2.90s]
+Starting >>> clearpath_description
+Finished <<< clearpath_description [1.72s]
+Starting >>> clearpath_manipulators
+Finished <<< clearpath_manipulators [1.82s]
+Starting >>> clearpath_motor_msgs
+Finished <<< clearpath_platform_msgs [48.1s]
+Starting >>> clearpath_diagnostics
+Finished <<< clearpath_motor_msgs [42.7s]
+Starting >>> clearpath_offboard_sensors
+Finished <<< clearpath_offboard_sensors [1.48s]
+Starting >>> omni_teleop_gui
+[Processing: clearpath_diagnostics, omni_teleop_gui]
+Finished <<< omni_teleop_gui [41.9s]
+Starting >>> worlds
+Finished <<< worlds [23.7s]
+Starting >>> clearpath_nav2_demos
+Finished <<< clearpath_diagnostics [1min 27s]
+Starting >>> clearpath_generator_common
+Finished <<< clearpath_nav2_demos [2.55s]
+Starting >>> clearpath_bms_broadcaster
+[Processing: clearpath_bms_broadcaster, clearpath_generator_common]
+Finished <<< clearpath_generator_common [39.4s]
+Starting >>> clearpath_common
+Finished <<< clearpath_common [1.29s]
+Starting >>> clearpath_viz
+Finished <<< clearpath_viz [2.65s]
+Starting >>> clearpath_generator_gz
+Finished <<< clearpath_bms_broadcaster [44.6s]
+Starting >>> clearpath_config_live
+Finished <<< clearpath_generator_gz [3.06s]
+Starting >>> clearpath_gz
+Finished <<< clearpath_config_live [2.50s]
+Starting >>> clearpath_control_msgs
+Finished <<< clearpath_gz [2.87s]
+Starting >>> clearpath_customization
+Finished <<< clearpath_customization [1.99s]
+Starting >>> clearpath_msgs
+Finished <<< clearpath_msgs [2.09s]
+Starting >>> clearpath_desktop
+Finished <<< clearpath_desktop [1.91s]
+Starting >>> clearpath_simulator
+Finished <<< clearpath_simulator [1.76s]
+Starting >>> omni_workshop
+Finished <<< omni_workshop [2.35s]
+Finished <<< clearpath_control_msgs [15.9s]
+
+Summary: 29 packages finished [3min 19s]

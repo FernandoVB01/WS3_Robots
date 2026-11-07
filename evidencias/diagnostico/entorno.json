@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-11-06T19:20:27.442382-05:00",
+  "ROS_DISTRO": "lyrical",
+  "executables": {
+    "ros2": "/opt/ros/lyrical/bin/ros2",
+    "gz": null,
+    "gazebo": null,
+    "docker": null,
+    "podman": null,
+    "colcon": "/usr/bin/colcon"
+  },
+  "checks": {
+    "ubuntu": {
+      "command": [
+        "cat",
+        "/etc/os-release"
+      ],
+      "exit_code": 0,
+      "output": "PRETTY_NAME=\"Ubuntu 26.04.1 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"26.04\"\nVERSION=\"26.04.1 LTS (Resolute Raccoon)\"\nVERSION_CODENAME=resolute\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=resolute\nLOGO=ubuntu-logo\n"
+    },
+    "kernel": {
+      "command": [
+        "uname",
+        "-a"
+      ],
+      "exit_code": 0,
+      "output": "Linux fercho-VirtualBox 7.0.0-43-generic #43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026 x86_64 GNU/Linux\n"
+    },
+    "ros_directories": {
+      "command": [
+        "ls",
+        "-la",
+        "/opt/ros"
+      ],
+      "exit_code": 0,
+      "output": "total 12\ndrwxr-xr-x 3 nobody nogroup 4096 Oct  3 23:01 .\ndrwxr-xr-x 3 nobody nogroup 4096 Oct  3 23:01 ..\ndrwxr-xr-x 9 nobody nogroup 4096 Oct  3 23:01 lyrical\n"
+    },
+    "gazebo_packages": {
+      "command": [
+        "dpkg-query",
+        "-W",
+        "-f=${binary:Package} ${Version} ${db:Status-Status}\n",
+        "*gazebo*",
+        "*gz-sim*",
+        "*ros-gz*"
+      ],
+      "exit_code": 1,
+      "output": "dpkg-query: no packages found matching *gazebo*\ndpkg-query: no packages found matching *gz-sim*\ndpkg-query: no packages found matching *ros-gz*\n"
+    },
+    "source_commit": {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "output": "843ac6e3d9320d81bf9f91e1a8ebd8a8e9fd3398\n"
+    },
+    "unit_tests": {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_basic_wheel_directions (test_model.ModelTests.test_basic_wheel_directions) ... ok\ntest_rotated_reference (test_model.ModelTests.test_rotated_reference) ... ok\ntest_round_trip (test_model.ModelTests.test_round_trip) ... ok\ntest_trajectory_continuity_and_clearance (test_model.ModelTests.test_trajectory_continuity_and_clearance) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.011s\n\nOK\n"
+    },
+    "installer_guard": {
+      "command": [
+        "bash",
+        "preparar_ubuntu.sh"
+      ],
+      "exit_code": 1,
+      "output": "Entorno no validado para este taller: Ubuntu 26.04.1 LTS.\nSe requiere Ubuntu 24.04, ROS 2 Jazzy y Gazebo Harmonic. No se instalaron paquetes.\n"
+    }
+  }
+}
