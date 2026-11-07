@@ -1,0 +1,23 @@
+{
+  "world": "office_0_r3",
+  "map_save_exit": 0,
+  "ffprobe_exit": 0,
+  "video": "/ws/evidencias/videos/03_office_0_supervisado.mp4",
+  "completed_unix_time": 1794024303.7861779,
+  "coverage_review_required": true,
+  "media": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "15/1"
+      }
+    ],
+    "format": {
+      "duration": "2098.600000",
+      "size": "61163761"
+    }
+  }
+}

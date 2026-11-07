@@ -1,3 +1,12 @@
+> ESTADO MÁS RECIENTE: office_0_r3 cerrado por atasco con mapa coherente pero
+> cobertura parcial. Video 03_office_0_supervisado.mp4 verificado, 2098.6 s.
+> Mapa seleccionado pequeno_supervisado.pgm/yaml. Ver NOTAS_COBERTURA.md.
+> **office_4_r1 está ACTIVO**, grabando evidencias/videos/04_office_4.mp4.
+> Scripts: grabar_office_4.sh, mapping_grande.launch.py, revision_office_4.py.
+> Logs office_4_r1_exploracion.jsonl, office_4_r1_revisiones.jsonl y
+> office_4_r1_cierre_autonomo.log. Mapas previstos grande.pgm/yaml.
+> No repetir office_0: el usuario pidió priorizar office_4 por falta de tiempo.
+
 > ESTADO MÁS RECIENTE: toma office_0_r3 activa, video
 > `evidencias/videos/03_office_0_supervisado.mp4`. SLAM procesa cada scan
 > (throttle_scans=1, minimum_time_interval=0.1), con velocidades reducidas.
