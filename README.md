@@ -40,6 +40,8 @@ Si `~/WS3_proyecto` ya existe, utiliza otra ubicación o tu copia existente; no 
 
 ## Documentación
 
+- [Lista de entregables según la consigna](ENTREGABLES_WS3.md)
+
 - [Guía de ejecución, mapeo y entrega](LEEME_EJECUCION.md)
 - [Informe con resultados de trayectorias](INFORME.md)
 - [Validación y procedencia](VALIDACION.md)

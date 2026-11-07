@@ -1,3 +1,9 @@
+> Actualización de autoría Git: los cuatro commits anteriores se reescribieron
+> con FernandoVB01 y su correo noreply. Los identificadores antiguos mencionados
+> abajo son históricos. No restaurar la identidad Codex en commits nuevos.
+> La consigna oficial exige INFORME.md; el LaTeX pedido por el usuario es un
+> complemento y se redactará al finalizar las pruebas. Ver ENTREGABLES_WS3.md.
+
 ## Estado más reciente: grabación reanudada y GitHub publicado
 
 La repetición office_0 está ACTIVA en el contenedor nuevo `ws3-jazzy`.
