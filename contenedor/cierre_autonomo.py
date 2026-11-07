@@ -14,7 +14,17 @@ explorer_id=identity(explorer); recorder_id=identity(recorder)
 assert explorer_id and recorder_id,'Missing active explorer or recorder'
 def event(name,**kw):print(json.dumps({'event':name,'unix_time':time.time(),**kw}),flush=True)
 event('watching',explorer_pid=explorer,recorder_pid=recorder,world=a.world)
-while identity(explorer)==explorer_id:time.sleep(5)
+simulation=int((run/'launch.pid').read_text())
+simulation_id=identity(simulation)
+while identity(explorer)==explorer_id:
+ if simulation_id and identity(simulation)!=simulation_id:
+  event('simulation_exited', action='interrupt_explorer_and_finalize_partial_recording')
+  os.kill(explorer,signal.SIGINT)
+  for _ in range(10):
+   if identity(explorer)!=explorer_id: break
+   time.sleep(1)
+  break
+ time.sleep(5)
 event('explorer_exited');time.sleep(20)
 with (log/(a.world+'_guardado_autonomo.log')).open('w') as f:
  try:

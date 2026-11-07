@@ -1,0 +1,26 @@
+Generated /home/ws3/.ros/omni_workshop/clearpath/robot.urdf.xacro
+[INFO] [1794019956.594736804] [moveit_collision_updater.urdf]: Loaded do100-0000 robot model.
+[INFO] [1794019956.942265511] [moveit_123490296.moveit.core.robot_model]: Loading robot model 'do100-0000'...
+[INFO] [1794019956.942335924] [moveit_123490296.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1794019956.943338348] [moveit_collision_updater.srdf]: Robot semantic model successfully loaded.
+[INFO] [1794019957.106385655] [moveit_collision_updater.Self-Collisions]: Thread complete 36
+Generated /home/ws3/.ros/omni_workshop/clearpath/robot.srdf.xacro
+Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/manipulators/launch/manipulators-service.launch.py
+Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/sensors/launch/lidar2d_0.launch.py
+Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/sensors/launch/lidar2d_1.launch.py
+Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/sensors/launch/sensors-service.launch.py
+Generated launch file: /home/ws3/.ros/omni_workshop/clearpath/platform/launch/platform-service.launch.py
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/sensors/config/lidar2d_0.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/sensors/config/lidar2d_1.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/control.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/diagnostic_aggregator.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/diagnostic_updater.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/foxglove_bridge.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/imu_filter.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/localization.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/teleop_interactive_markers.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/teleop_joy.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/platform/config/twist_mux.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/sensors/config/imu_0.yaml
+Generated config: /home/ws3/.ros/omni_workshop/clearpath/manipulators/config/moveit.yaml
+Lidars configurados a 10.0 Hz. Lanzar simulation.launch.py generate:=false.

@@ -1,3 +1,32 @@
+## Estado más reciente: grabación reanudada y GitHub publicado
+
+La repetición office_0 está ACTIVA en el contenedor nuevo `ws3-jazzy`.
+Se verificaron visualmente Gazebo/RViz, scans, Nav2, el primer destino y el
+crecimiento del MP4. Lidar 10 Hz validado en esta ejecución. Paso físico 1 ms.
+La pantalla nueva conecta con la sesión X11 actual de Ubuntu.
+
+- Video actual: `/home/fercho/WS3_proyecto/evidencias/videos/03_office_0_repeticion.mp4`.
+- Progreso: `evidencias/logs/office_0_r2_exploracion.jsonl`.
+- Cierre: `evidencias/logs/office_0_r2_cierre_autonomo.log` y, al terminar, `.json`.
+- Mapas al cierre: `evidencias/mapas/pequeno_repeticion.pgm/yaml`.
+- El cierre autónomo ahora también detecta la salida del lanzador de simulación
+  y finaliza una toma parcial, evitando esperar indefinidamente a un reloj parado.
+- El script de arranque vive independientemente del chat en Docker. No volver a
+  ejecutarlo mientras esta toma esté activa: sobrescribiría su video.
+- El contenedor anterior se conserva como `ws3-jazzy-anterior`, con los nodos
+  de simulación/mapeo detenidos. Allí se autenticó GitHub CLI como FernandoVB01.
+  Para publicar desde esta VM: `docker exec --user 1000:1000 ws3-jazzy-anterior
+  git -C /ws -c http.postBuffer=157286400 -c http.version=HTTP/1.1 push origin main`.
+- La imagen local `ws3-jazzy:reanudacion` conserva las dependencias instaladas;
+  no publicarla: es una copia del entorno de trabajo, no un entregable.
+- Commits ya subidos: 286bfb1 y dd365b9. La toma antigua office_0 se publicó como
+  parcial; tiene un tramo final sin avance después de perder la pantalla.
+
+Falta completar/revisar office_0, ejecutar office_4 y sus evidencias, y SOLO AL
+FINAL redactar el informe LaTeX, empaquetar la entrega y subir resultados finales.
+Las instrucciones históricas de abajo se conservan para explicar la procedencia;
+para procesos, rutas y estados activos prevalece esta sección.
+
 > ACTUALIZACIÓN POSTERIOR: la sesión gráfica de Ubuntu cambió y Gazebo terminó.
 > La primera toma office_0 se cerró con ffprobe correcto, pero es PARCIAL y
 > contiene un tramo final sin avance. Su ruta es `evidencias/videos/03_office_0.mp4`.

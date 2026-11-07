@@ -98,3 +98,32 @@
 [rviz2-1] XIO:  fatal IO error 2 (No such file or directory) on X server ":1"
 [rviz2-1]       after 36153 requests (36153 known processed) with 0 events remaining.
 [ERROR] [rviz2-1]: process has died [pid 17609, exit code -11, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /ws/contenedor/mapping_office_0.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_5zyg1i5g -r /tf:=/do100_0000/tf -r /tf_static:=/do100_0000/tf_static'].
+[lifecycle_manager-3] [INFO] [1794019673.877641003] [do100_0000.lifecycle_manager_slam]: [34m[1mHave not received a heartbeat from map_saver.[0m[0m
+[lifecycle_manager-3] [ERROR] [1794019674.064588418] [do100_0000.lifecycle_manager_slam]: CRITICAL FAILURE: SERVER map_saver IS DOWN after not receiving a heartbeat for 4000 ms. Shutting down related nodes.
+[lifecycle_manager-3] [INFO] [1794019674.064795270] [do100_0000.lifecycle_manager_slam]: [34m[1mTerminating bond timer...[0m[0m
+[lifecycle_manager-3] [INFO] [1794019674.065161062] [do100_0000.lifecycle_manager_slam]: [34m[1mResetting managed nodes...[0m[0m
+[lifecycle_manager-3] [INFO] [1794019674.065335522] [do100_0000.lifecycle_manager_slam]: [34m[1mDeactivating map_saver[0m[0m
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [sync_slam_toolbox_node-4]: sending signal 'SIGINT' to process[sync_slam_toolbox_node-4]
+[INFO] [lifecycle_manager-3]: sending signal 'SIGINT' to process[lifecycle_manager-3]
+[INFO] [map_saver_server-2]: sending signal 'SIGINT' to process[map_saver_server-2]
+[lifecycle_manager-3] [INFO] [1794019777.568626411] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[sync_slam_toolbox_node-4] [INFO] [1794019777.582276650] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1794019777.608913495] [do100_0000.lifecycle_manager_slam]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_slam)
+[map_saver_server-2] [INFO] [1794019777.617814162] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_saver_server-2] [INFO] [1794019777.651369093] [do100_0000.map_saver]: Running Nav2 LifecycleNode rcl preshutdown (map_saver)
+[map_saver_server-2] [INFO] [1794019777.663870505] [do100_0000.map_saver]: Deactivating
+[map_saver_server-2] [INFO] [1794019777.663938975] [do100_0000.map_saver]: Destroying bond (map_saver) to lifecycle manager.
+[map_saver_server-2] [INFO] [1794019777.767485214] [do100_0000.map_saver]: Cleaning up
+[map_saver_server-2] [INFO] [1794019777.767534297] [do100_0000.map_saver]: Destroying bond (map_saver) to lifecycle manager.
+[sync_slam_toolbox_node-4] Unregistering sensor: Custom Described Lidar
+[map_saver_server-2] [INFO] [1794019777.923371787] [do100_0000.map_saver]: Destroying
+[INFO] [map_saver_server-2]: process has finished cleanly [pid 17610]
+[ERROR] [sync_slam_toolbox_node-4]: process[sync_slam_toolbox_node-4] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [sync_slam_toolbox_node-4]: sending signal 'SIGTERM' to process[sync_slam_toolbox_node-4]
+[ERROR] [sync_slam_toolbox_node-4]: process has died [pid 17612, exit code -15, cmd '/opt/ros/jazzy/lib/slam_toolbox/sync_slam_toolbox_node --ros-args -r __node:=slam_toolbox -r __ns:=/do100_0000 --params-file /tmp/tmpd6loe_v0 --params-file /tmp/launch_params_ooqxul54 -r /tf:=/do100_0000/tf -r /tf_static:=/do100_0000/tf_static'].
+[ERROR] [lifecycle_manager-3]: process[lifecycle_manager-3] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [lifecycle_manager-3]: sending signal 'SIGTERM' to process[lifecycle_manager-3]
+[ERROR] [lifecycle_manager-3]: process[lifecycle_manager-3] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+[INFO] [lifecycle_manager-3]: sending signal 'SIGKILL' to process[lifecycle_manager-3]
+[ERROR] [lifecycle_manager-3]: process has died [pid 17611, exit code -9, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_slam -r __ns:=/do100_0000 --params-file /tmp/launch_params_7wy2hxpa -r /tf:=/do100_0000/tf -r /tf_static:=/do100_0000/tf_static'].

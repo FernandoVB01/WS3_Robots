@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Usar sin simulación activa. Reduce únicamente la frecuencia de ambos lidars.
-set -euo pipefail
+set -eo pipefail
 source /ws/contenedor/entorno.sh
 sensor_rate=${1:-10}
 setup_dir=/home/ws3/.ros/omni_workshop/clearpath
@@ -15,8 +15,8 @@ import sys
 import xml.etree.ElementTree as ET
 rate=float(sys.argv[2])
 assert 1 <= rate <= 40, 'La frecuencia debe estar entre 1 y 40 Hz'
-ET.register_namespace('xacro','http://ros.org/wiki/xacro')
-tree=ET.parse(sys.argv[1]); nodes=tree.findall('.//{http://ros.org/wiki/xacro}hokuyo_ust')
+ET.register_namespace('xacro','http://www.ros.org/wiki/xacro')
+tree=ET.parse(sys.argv[1]); nodes=tree.findall('.//{http://www.ros.org/wiki/xacro}hokuyo_ust')
 assert len(nodes)==2, 'Se esperaban dos lidars Hokuyo'
 for node in nodes: node.set('update_rate',str(rate))
 tree.write(sys.argv[1],encoding='unicode',xml_declaration=True)

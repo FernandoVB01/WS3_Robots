@@ -1,0 +1,41 @@
+[INFO] [launch]: All log files can be found below /home/ws3/.ros/log/2026-11-06-21-53-47-077959-fercho-VirtualBox-853
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rviz2-1]: process started with pid [884]
+[INFO] [map_saver_server-2]: process started with pid [885]
+[INFO] [lifecycle_manager-3]: process started with pid [886]
+[INFO] [sync_slam_toolbox_node-4]: process started with pid [887]
+[lifecycle_manager-3] [INFO] [1794020027.711618886] [do100_0000.lifecycle_manager_slam]: Creating
+[lifecycle_manager-3] [INFO] [1794020027.730990414] [do100_0000.lifecycle_manager_slam]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[sync_slam_toolbox_node-4] [INFO] [1794020027.945095407] [do100_0000.slam_toolbox]: Node using stack size 40000000
+[rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ubuntu'
+[sync_slam_toolbox_node-4] [INFO] [1794020028.150209176] [do100_0000.slam_toolbox]: Configuring
+[map_saver_server-2] [INFO] [1794020028.376524040] [do100_0000.map_saver]: 
+[map_saver_server-2] 	map_saver lifecycle node launched. 
+[map_saver_server-2] 	Waiting on external lifecycle transitions to activate
+[map_saver_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-2] [INFO] [1794020028.376781698] [do100_0000.map_saver]: Creating
+[lifecycle_manager-3] [INFO] [1794020028.535906755] [do100_0000.lifecycle_manager_slam]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1794020028.536374847] [do100_0000.lifecycle_manager_slam]: [34m[1mConfiguring map_saver[0m[0m
+[map_saver_server-2] [INFO] [1794020028.573745707] [do100_0000.map_saver]: Configuring
+[lifecycle_manager-3] [INFO] [1794020028.701854650] [do100_0000.lifecycle_manager_slam]: [34m[1mActivating map_saver[0m[0m
+[map_saver_server-2] [INFO] [1794020028.704613889] [do100_0000.map_saver]: Activating
+[map_saver_server-2] [INFO] [1794020028.704747322] [do100_0000.map_saver]: Creating bond (map_saver) to lifecycle manager.
+[sync_slam_toolbox_node-4] [INFO] [1794020028.727392631] [do100_0000.slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[sync_slam_toolbox_node-4] [INFO] [1794020028.728646737] [do100_0000.slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[INFO] [launch.user]: [LifecycleLaunch] Slamtoolbox node is activating.
+[sync_slam_toolbox_node-4] [INFO] [1794020028.794922088] [do100_0000.slam_toolbox]: Activating
+[lifecycle_manager-3] [INFO] [1794020028.842308278] [do100_0000.lifecycle_manager_slam]: Server map_saver connected with bond.
+[lifecycle_manager-3] [INFO] [1794020028.842354916] [do100_0000.lifecycle_manager_slam]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1794020028.842366669] [do100_0000.lifecycle_manager_slam]: [34m[1mCreating bond timer...[0m[0m
+[sync_slam_toolbox_node-4] Registering sensor: [Custom Described Lidar]
+[rviz2-1] [INFO] [1794020029.346946806] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-1] [INFO] [1794020029.347619721] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-1] [INFO] [1794020029.548324553] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-1] [INFO] [1794020031.698870590] [rviz2]: Trying to create a map of size 86 x 131 using 1 swatches
+[rviz2-1] [ERROR] [1794020031.731474629] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+[rviz2-1] rviz/glsl120/indexed_8bit_image.frag
+[rviz2-1]  GLSL link result : 
+[rviz2-1] active samplers with a different type refer to the same texture image unit
+[rviz2-1] [INFO] [1794020071.196000315] [rviz2]: Trying to create a map of size 102 x 131 using 1 swatches
+[rviz2-1] [INFO] [1794020075.447303143] [rviz2]: Trying to create a map of size 215 x 131 using 1 swatches
+[rviz2-1] [INFO] [1794020090.800281845] [rviz2]: Message Filter dropping message: frame 'lidar2d_0_laser' at time 24.200 for reason 'the timestamp on the message is earlier than all the data in the transform cache'

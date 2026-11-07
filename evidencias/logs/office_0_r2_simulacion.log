@@ -1,0 +1,511 @@
+[INFO] [launch]: All log files can be found below /home/ws3/.ros/log/2026-11-06-21-52-38-512702-fercho-VirtualBox-266
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [parameter_bridge-1]: process started with pid [275]
+[INFO] [gazebo-2]: process started with pid [276]
+[INFO] [robot_state_publisher-3]: process started with pid [277]
+[INFO] [spawner-4]: process started with pid [280]
+[INFO] [ekf_node-5]: process started with pid [281]
+[INFO] [marker_server-6]: process started with pid [282]
+[INFO] [twist_mux-7]: process started with pid [283]
+[INFO] [joy_linux_node-8]: process started with pid [284]
+[INFO] [teleop_node-9]: process started with pid [285]
+[INFO] [parameter_bridge-10]: process started with pid [286]
+[INFO] [parameter_bridge-11]: process started with pid [287]
+[INFO] [parameter_bridge-12]: process started with pid [296]
+[INFO] [imu_filter_madgwick_node-13]: process started with pid [297]
+[INFO] [parameter_bridge-14]: process started with pid [299]
+[INFO] [static_transform_publisher-15]: process started with pid [312]
+[INFO] [parameter_bridge-16]: process started with pid [322]
+[INFO] [static_transform_publisher-17]: process started with pid [323]
+[INFO] [create-18]: process started with pid [336]
+[INFO] [bash-19]: process started with pid [337]
+[joy_linux_node-8] [ERROR] [1794019960.049880649] [do100_0000.joy_node]: Couldn't open joystick /dev/input/ps4. Will retry every second.
+[robot_state_publisher-3] [INFO] [1794019960.091785984] [do100_0000.robot_state_publisher]: Robot initialized
+[ekf_node-5] [INFO] [1794019960.110886145] [do100_0000.ekf_node]: Waiting for clock to start...
+[twist_mux-7] [INFO] [1794019960.121013440] [do100_0000.twist_mux]: Topic handler 'topics.external' subscribed to topic 'cmd_vel': timeout = 0.500000s , priority = 1.
+[twist_mux-7] [INFO] [1794019960.121946302] [do100_0000.twist_mux]: Topic handler 'topics.interactive_marker' subscribed to topic 'twist_marker_server/cmd_vel': timeout = 0.500000s , priority = 8.
+[twist_mux-7] [INFO] [1794019960.122034309] [do100_0000.twist_mux]: Topic handler 'topics.joy' subscribed to topic 'joy_teleop/cmd_vel': timeout = 0.500000s , priority = 10.
+[twist_mux-7] [INFO] [1794019960.122100374] [do100_0000.twist_mux]: Topic handler 'topics.rc' subscribed to topic 'rc_teleop/cmd_vel': timeout = 0.500000s , priority = 12.
+[twist_mux-7] [INFO] [1794019960.122169634] [do100_0000.twist_mux]: Topic handler 'locks.bt_quality' subscribed to topic 'joy_teleop/bt_quality_stop': timeout = None , priority = 253.
+[twist_mux-7] [INFO] [1794019960.122267629] [do100_0000.twist_mux]: Topic handler 'locks.e_stop' subscribed to topic 'platform/emergency_stop': timeout = None , priority = 255.
+[twist_mux-7] [INFO] [1794019960.122316221] [do100_0000.twist_mux]: Topic handler 'locks.safety_stop' subscribed to topic 'platform/safety_stop': timeout = None , priority = 254.
+[marker_server-6] [INFO] [1794019960.133625109] [do100_0000.twist_server_node]: [interactive_marker_twist_server] Initialized.
+[teleop_node-9] [INFO] [1794019960.172558305] [TeleopTwistJoy]: Teleop enable button 4.
+[teleop_node-9] [INFO] [1794019960.172609872] [TeleopTwistJoy]: Turbo on button 5.
+[teleop_node-9] [INFO] [1794019960.172613670] [TeleopTwistJoy]: Linear axis x on 1 at scale 0.400000.
+[teleop_node-9] [INFO] [1794019960.172619390] [TeleopTwistJoy]: Turbo for linear axis x is scale 1.000000.
+[teleop_node-9] [INFO] [1794019960.172622156] [TeleopTwistJoy]: Linear axis y on 3 at scale 0.400000.
+[teleop_node-9] [INFO] [1794019960.172624630] [TeleopTwistJoy]: Turbo for linear axis y is scale 1.000000.
+[teleop_node-9] [INFO] [1794019960.172627085] [TeleopTwistJoy]: Angular axis yaw on 0 at scale 0.500000.
+[teleop_node-9] [INFO] [1794019960.172629670] [TeleopTwistJoy]: Turbo for angular axis yaw is scale 1.400000.
+[imu_filter_madgwick_node-13] [INFO] [1794019960.183081192] [do100_0000.imu_filter_madgwick]: Starting ImuFilter
+[imu_filter_madgwick_node-13] [INFO] [1794019960.183258497] [do100_0000.imu_filter_madgwick]: Using dt computed from message headers
+[imu_filter_madgwick_node-13] [INFO] [1794019960.183270620] [do100_0000.imu_filter_madgwick]: The gravity vector is kept in the IMU message.
+[imu_filter_madgwick_node-13] [INFO] [1794019960.183316306] [do100_0000.imu_filter_madgwick]: Imu filter gain set to 0.100000
+[imu_filter_madgwick_node-13] [INFO] [1794019960.183328379] [do100_0000.imu_filter_madgwick]: Gyro drift bias set to 0.000000
+[imu_filter_madgwick_node-13] [INFO] [1794019960.183334420] [do100_0000.imu_filter_madgwick]: Magnetometer bias values: 0.000000 0.000000 0.000000
+[static_transform_publisher-15] [INFO] [1794019960.185934827] [do100_0000.lidar2d_0_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-15] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-15] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-15] from 'lidar2d_0_link' to 'do100_0000/robot/base_link/lidar2d_0'
+[static_transform_publisher-17] [INFO] [1794019960.228349303] [do100_0000.lidar2d_1_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-17] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-17] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-17] from 'lidar2d_1_link' to 'do100_0000/robot/base_link/lidar2d_1'
+[parameter_bridge-11] [INFO] [1794019960.271377285] [do100_0000.odom_base_tf_bridge]: Creating GZ->ROS Bridge: [/model/do100_0000/robot/tf (gz.msgs.Pose_V) -> /model/do100_0000/robot/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-10] [INFO] [1794019960.297637733] [do100_0000.cmd_vel_bridge]: Creating GZ->ROS Bridge: [do100_0000/cmd_vel (gz.msgs.Twist) -> do100_0000/cmd_vel (geometry_msgs/msg/TwistStamped)] (Lazy 0)
+[parameter_bridge-10] [INFO] [1794019960.304332338] [do100_0000.cmd_vel_bridge]: Creating ROS->GZ Bridge: [/model/do100_0000/robot/cmd_vel (geometry_msgs/msg/TwistStamped) -> /model/do100_0000/robot/cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[create-18] [INFO] [1794019960.365265716] [do100_0000.ros_gz_sim]: Requesting list of world names.
+[parameter_bridge-1] [INFO] [1794019960.378651322] [clock_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[spawner-4] [INFO] [1794019961.058976755] [do100_0000.spawner_joint_state_broadcaster]: waiting for service /do100_0000/controller_manager/list_controllers to become available...
+[parameter_bridge-14] [INFO] [1794019961.212884725] [do100_0000.sensors.lidar2d_0_gz_bridge]: Creating GZ->ROS Bridge: [/do100_0000/sensors/lidar2d_0/scan (gz.msgs.LaserScan) -> lidar2d_0/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-12] [INFO] [1794019961.398338429] [do100_0000.imu_0_gz_bridge]: Creating GZ->ROS Bridge: [/do100_0000/sensors/imu_0/data (gz.msgs.IMU) -> sensors/imu_0/data (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-12] [INFO] [1794019961.404826300] [do100_0000.imu_0_gz_bridge]: Creating GZ->ROS Bridge: [/do100_0000/sensors/imu_0/data_raw (gz.msgs.IMU) -> sensors/imu_0/data_raw (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-16] [INFO] [1794019961.462853765] [do100_0000.sensors.lidar2d_1_gz_bridge]: Creating GZ->ROS Bridge: [/do100_0000/sensors/lidar2d_1/scan (gz.msgs.LaserScan) -> lidar2d_1/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[gazebo-2] [1;32m[Msg] [0m[1;32mGazebo Sim Server v[0m[1;32m8.15.0[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/ws/install/worlds/share/worlds/worlds/office_0.sdf[0m[1;32m].[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [Physics.cc:1004] [0m[1;36mLoaded [[0m[1;36mgz::physics::dartsim::Plugin[0m[1;36m] from library [[0m[1;36m/opt/ros/jazzy/opt/gz_physics_vendor/lib/gz-physics-7/engine-plugins/libgz-physics-dartsim-plugin.so[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Physics[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mCreate[0m[1;32m service on [[0m[1;32m/world/office_0_world/create_multiple[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mCreate[0m[1;32m service on [[0m[1;32m/world/office_0_world/create_multiple/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mRemove[0m[1;32m service on [[0m[1;32m/world/office_0_world/remove[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mRemove[0m[1;32m service on [[0m[1;32m/world/office_0_world/remove/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/office_0_world/set_pose[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/office_0_world/set_pose/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/office_0_world/set_pose_vector[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/office_0_world/set_pose_vector/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mLight configuration[0m[1;32m service on [[0m[1;32m/world/office_0_world/light_config[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mLight configuration[0m[1;32m service on [[0m[1;32m/world/office_0_world/light_config/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPhysics[0m[1;32m service on [[0m[1;32m/world/office_0_world/set_physics[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPhysics[0m[1;32m service on [[0m[1;32m/world/office_0_world/set_physics/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mSphericalCoordinates[0m[1;32m service on [[0m[1;32m/world/office_0_world/set_spherical_coordinates[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mSphericalCoordinates[0m[1;32m service on [[0m[1;32m/world/office_0_world/set_spherical_coordinates/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mEnable collision[0m[1;32m service on [[0m[1;32m/world/office_0_world/enable_collision[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mEnable collision[0m[1;32m service on [[0m[1;32m/world/office_0_world/enable_collision/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mDisable collision[0m[1;32m service on [[0m[1;32m/world/office_0_world/disable_collision[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mDisable collision[0m[1;32m service on [[0m[1;32m/world/office_0_world/disable_collision/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/office_0_world/visual_config[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/office_0_world/visual_config/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/office_0_world/wheel_slip[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/office_0_world/wheel_slip/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[create-18] [INFO] [1794019962.178396522] [do100_0000.ros_gz_sim]: Waiting messages on topic [robot_description].
+[create-18] [INFO] [1794019962.186347291] [do100_0000.ros_gz_sim]: Entity creation successful.
+[INFO] [create-18]: process has finished cleanly [pid 336]
+[INFO] [bash-19]: process has finished cleanly [pid 337]
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::UserCommands[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::SceneBroadcaster[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Contact[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:697] [0m[1;36mConfiguring Sensors system[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:557] [0m[1;36mSensorsPrivate::Run[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Sensors[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:532] [0m[1;36mSensorsPrivate::RenderThread started[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:337] [0m[1;36mWaiting for init[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Imu[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::NavSat[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32mdefault[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/office_0_world[0m[1;32m/control], [[0m[1;32m/world/office_0_world[0m[1;32m/control/state] and [[0m[1;32m/world/office_0_world[0m[1;32m/playback/control][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/office_0_world[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mWorld [[0m[1;32moffice_0_world[0m[1;32m] initialized with [[0m[1;32m1ms[0m[1;32m] physics profile.[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/office_0_world[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:627] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m6[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m4[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="lidar2d_0"]/gz_frame_id:<urdf-string>:L0]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="lidar2d_1"]/gz_frame_id:<urdf-string>:L0]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-2] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="imu_0"]/gz_frame_id:<urdf-string>:L0]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-2] [INFO] [1794019963.074432284] [do100_0000.gz_ros_control]: Loading controller_manager
+[gazebo-2] [INFO] [1794019963.121127022] [do100_0000.controller_manager]: Using ROS clock for triggering controller manager cycles.
+[gazebo-2] [WARN] [1794019963.121175894] [do100_0000.controller_manager]: The resource manager is not yet initialized, will wait for the robot description to initialize it..
+[INFO] [gazebo-20]: process started with pid [600]
+[gazebo-2] [INFO] [1794019963.135786600] [do100_0000.controller_manager]: Subscribing to '/do100_0000/robot_description' topic for robot description.
+[gazebo-2] [WARN] [1794019963.137088488] [do100_0000.gz_ros_control]: Waiting RM to load and initialize hardware...
+[gazebo-2] [INFO] [1794019963.147475248] [do100_0000.controller_manager]: Received robot description from topic.
+[gazebo-2] [INFO] [1794019963.147566149] [do100_0000.controller_manager]: Enforcing command limits is disabled. Command limits from URDF will be ignored.
+[gazebo-2] [INFO] [1794019963.168531184] [do100_0000.gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-2] [INFO] [1794019963.168690144] [do100_0000.gz_ros_control]: Loading joint: front_left_wheel_joint
+[gazebo-2] [INFO] [1794019963.168704541] [do100_0000.gz_ros_control]: 	State:
+[gazebo-2] [INFO] [1794019963.168712236] [do100_0000.gz_ros_control]: 		 position
+[gazebo-2] [INFO] [1794019963.168716865] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-2] [INFO] [1794019963.168724710] [do100_0000.gz_ros_control]: 	Command:
+[gazebo-2] [INFO] [1794019963.168728677] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-2] [INFO] [1794019963.168750618] [do100_0000.gz_ros_control]: Loading joint: front_right_wheel_joint
+[gazebo-2] [INFO] [1794019963.168754706] [do100_0000.gz_ros_control]: 	State:
+[gazebo-2] [INFO] [1794019963.168758343] [do100_0000.gz_ros_control]: 		 position
+[gazebo-2] [INFO] [1794019963.168762271] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-2] [INFO] [1794019963.168765777] [do100_0000.gz_ros_control]: 	Command:
+[gazebo-2] [INFO] [1794019963.168768893] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-2] [INFO] [1794019963.168778611] [do100_0000.gz_ros_control]: Loading joint: rear_left_wheel_joint
+[gazebo-2] [INFO] [1794019963.168782298] [do100_0000.gz_ros_control]: 	State:
+[gazebo-2] [INFO] [1794019963.168785635] [do100_0000.gz_ros_control]: 		 position
+[gazebo-2] [INFO] [1794019963.168789372] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-2] [INFO] [1794019963.168792818] [do100_0000.gz_ros_control]: 	Command:
+[gazebo-2] [INFO] [1794019963.168795844] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-2] [INFO] [1794019963.168805141] [do100_0000.gz_ros_control]: Loading joint: rear_right_wheel_joint
+[gazebo-2] [INFO] [1794019963.168808818] [do100_0000.gz_ros_control]: 	State:
+[gazebo-2] [INFO] [1794019963.168811934] [do100_0000.gz_ros_control]: 		 position
+[gazebo-2] [INFO] [1794019963.168815040] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-2] [INFO] [1794019963.168818236] [do100_0000.gz_ros_control]: 	Command:
+[gazebo-2] [INFO] [1794019963.168821312] [do100_0000.gz_ros_control]: 		 velocity
+[gazebo-2] [INFO] [1794019963.168913677] [do100_0000.gz_ros_control]: Loading sensor: imu_0
+[gazebo-2] [INFO] [1794019963.168970985] [do100_0000.gz_ros_control]: 	State:
+[gazebo-2] [WARN] [1794019963.168982867] [do100_0000.gz_ros_control]: IMU sensor 'imu_0' not found in hardware_info, skipping.
+[gazebo-2] [INFO] [1794019963.169105098] [do100_0000.controller_manager]: Initialize hardware 'do100_hardware' 
+[gazebo-2] [WARN] [1794019963.169122862] [do100_0000.controller_manager.hardware_component.system.do100_hardware]: Executor is not available during hardware component initialization for 'do100_hardware'. Skipping node creation!
+[gazebo-2] [INFO] [1794019963.169273316] [do100_0000.controller_manager]: Successful initialization of hardware 'do100_hardware'
+[gazebo-2] [INFO] [1794019963.169387291] [do100_0000.controller_manager]: Activating component 'do100_hardware'.
+[gazebo-2] [INFO] [1794019963.169399174] [resource_manager]: 'configure' hardware 'do100_hardware' 
+[gazebo-2] [INFO] [1794019963.169404494] [do100_0000.gz_ros_control]: System Successfully configured!
+[gazebo-2] [INFO] [1794019963.169409163] [resource_manager]: Successful 'configure' of hardware 'do100_hardware'
+[gazebo-2] [INFO] [1794019963.169416226] [resource_manager]: 'activate' hardware 'do100_hardware' 
+[gazebo-2] [INFO] [1794019963.169431505] [resource_manager]: Successful 'activate' of hardware 'do100_hardware'
+[gazebo-2] [WARN] [1794019963.169465138] [do100_0000.controller_manager]: Component 'do100_hardware' does not have read or write statistics initialized, skipping registration.
+[gazebo-2] [INFO] [1794019963.169754299] [do100_0000.controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[gazebo-2] [INFO] [1794019963.330098160] [do100_0000.controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[gazebo-2] [INFO] [1794019963.330151311] [do100_0000.controller_manager]: Loading controller 'joint_state_broadcaster'
+[gazebo-2] [WARN] [1794019963.405649781] [do100_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[gazebo-2] [INFO] [1794019963.405990024] [do100_0000.controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /home/ws3/.ros/omni_workshop/clearpath/platform/config/control.yaml --ros-args --remap ~/odom:=platform/odom --remap ~/cmd_vel:=platform/cmd_vel --remap /tf:=tf --remap /tf_static:=tf_static --remap /diagnostics:=diagnostics --remap /dynamic_joint_states:=platform/dynamic_joint_states --remap joint_states:=platform/joint_states --remap ~/reference:=platform/cmd_vel --remap ~/odometry:=platform/odom -p use_sim_time:=true --param use_sim_time:=true 
+[spawner-4] [INFO] [1794019963.558854927] [do100_0000.spawner_joint_state_broadcaster]: Loaded joint_state_broadcaster
+[gazebo-2] [INFO] [1794019963.764968519] [do100_0000.controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-2] [INFO] [1794019963.765222740] [do100_0000.joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[gazebo-2] [INFO] [1794019963.818605415] [do100_0000.controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[gazebo-20] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ubuntu'
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WheelSlip[0m[1;36m] for entity [[0m[1;36m182[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WheelSlip[0m[1;36m] for entity [[0m[1;36m182[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WheelSlip[0m[1;36m] for entity [[0m[1;36m182[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WheelSlip[0m[1;36m] for entity [[0m[1;36m182[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz_ros2_control::GazeboSimROS2ControlPlugin[0m[1;36m] for entity [[0m[1;36m182[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::PosePublisher[0m[1;36m] for entity [[0m[1;36m182[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [UserCommands.cc:1093] [0m[1;36mCreated entity [[0m[1;36m182[0m[1;36m] named [[0m[1;36mdo100_0000/robot[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-20] [1;32m[Msg] [0m[1;32mGazebo Sim GUI    v[0m[1;32m8.15.0[0m[1;32m[0m
+[gazebo-20] [1;36m[Dbg] [Application.cc:96] [0m[1;36mInitializing application.[0m[1;36m[0m
+[gazebo-20] [1;36m[Dbg] [Application.cc:170] [0m[1;36mQt using OpenGL graphics interface[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:657] [0m[1;36mCreate main window[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:333] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-2] [1;36m[Dbg] [SDFFeatures.cc:865] [0m[1;36mThe geometry element of collision [[0m[1;36mbase_link_fixed_joint_lump__chassis_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:953] [0m[1;36mInitialization needed[0m[1;36m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/office_0_world[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/office_0_world[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:349] [0m[1;36mInitializing render context[0m[1;36m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/office_0_world[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/office_0_world[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/office_0_world/scene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mgz-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [ImuSensor.cc:150] [0m[1;36mIMU data for [[0m[1;36mdo100_0000/robot::base_link::imu_0[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/imu_0/data_raw[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/office_0_world/scene/deletion[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/office_0_world/state[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/office_0_world[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/office_0_world[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m4[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:654] [0m[1;36mExiting postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:627] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m8[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m4[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m5[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [WARN] [1794019965.638295516] [do100_0000.gz_ros_control]:  Desired controller update period (0.05 s) is slower than the gazebo simulation period (0.001 s).
+[imu_filter_madgwick_node-13] [WARN] [1794019965.643662925] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-2] libEGL warning: Not allowed to force software rendering when API explicitly selects a hardware device.
+[gazebo-2] libEGL warning: failed to open /dev/dri/card0: Permission denied
+[gazebo-2] 
+[gazebo-20] [1;36m[GUI] [Dbg] [PathManager.cc:68] [0m[1;36mRequesting resource paths through [[0m[1;36m/gazebo/resource_paths/get[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Gui.cc:356] [0m[1;36mGUI requesting list of world names. The server may be busy [0m[1;36mdownloading resources. Please be patient.[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [PathManager.cc:57] [0m[1;36mReceived resource paths.[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [GuiRunner.cc:149] [0m[1;36mRequesting initial state from [[0m[1;36m/world/office_0_world/state[0m[1;36m]...[0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading config [[0m[1;32m/ws/contenedor/gui_office_0.config[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMinimalScene[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32m3D View[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMinimalScene[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libMinimalScene.so[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mGzSceneManager[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScene Manager[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mGzSceneManager[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libGzSceneManager.so[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mInteractiveViewControl[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view controller topic advertised on [[0m[1;32m/gui/camera/view_control[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera reference visual topic advertised on [[0m[1;32m/gui/camera/view_control/reference_visual[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view control sensitivity advertised on [[0m[1;32m/gui/camera/view_control/sensitivity[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mInteractive view control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mInteractiveViewControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libInteractiveViewControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mCameraTracking[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mCamera tracking[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mCameraTracking[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libCameraTracking.so[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMarkerManager[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/office_0_world/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mMarker Manager[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding loop detected for property "x"[0m[1;33m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:638] [0m[1;36mCreating postupdate worker thread ([0m[1;36m6[0m[1;36m)[0m[1;36m[0m
+[gazebo-20] libEGL warning: Not allowed to force software rendering when API explicitly selects a hardware device.
+[gazebo-20] libEGL warning: failed to open /dev/dri/card0: Permission denied
+[gazebo-20] 
+[gazebo-2] [ERROR] [1794019969.118765322] [do100_0000.controller_manager]: Switch controller timed out after 5 seconds!
+[spawner-4] [ERROR] [1794019969.153327743] [do100_0000.spawner_joint_state_broadcaster]: Failed to activate controller : joint_state_broadcaster
+[ERROR] [spawner-4]: process has died [pid 280, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner --controller-manager-timeout 60 joint_state_broadcaster platform_velocity_controller --ros-args -r __ns:=/do100_0000'].
+[imu_filter_madgwick_node-13] [WARN] [1794019970.269756378] [do100_0000.imu_filter_madgwick]: Still waiting for data on topic imu/data_raw...
+[gazebo-2] [1;33m[Wrn] [Component.hh:144] [0m[1;33mTrying to serialize component with data type [[0m[1;33mSt6vectorIdSaIdEE[0m[1;33m], which doesn't have [0m[1;33m`operator<<`. Component will not be serialized.[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [Ogre2RenderTarget.cc:668] [0m[1;33mAnti-aliasing level of '[0m[1;33m[0m[1;33m' [0m[1;33mis not supported; valid FSAA levels are: [0m[1;33m[ 0 ][0m[1;33m. Setting to 1[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [Component.hh:189] [0m[1;33mTrying to deserialize component with data type [[0m[1;33mSt6vectorIdSaIdEE[0m[1;33m], which doesn't have [0m[1;33m`operator>>`. Component will not be deserialized.[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;33m[Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;36m[Dbg] [RenderUtil.cc:2646] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:391] [0m[1;36mRendering Thread initialized[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:953] [0m[1;36mInitialization needed[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [EntityComponentManager.cc:1710] [0m[1;36mUpdated state thread iterators: [0m[1;36m4[0m[1;36m threads processing around [0m[1;36m53[0m[1;36m entities each.[0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMarkerManager[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libMarkerManager.so[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldControl[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing world control service [[0m[1;32m/world/office_0_world/control[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/office_0_world/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [WorldControl.cc:237] [0m[1;36mUsing an event to share WorldControl msgs with the server[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libWorldControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldStats[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/office_0_world/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld stats[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldStats[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libWorldStats.so[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:398] [0m[1;36mLoading window config[0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing server control service [[0m[1;32m/server_control[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [Application.cc:671] [0m[1;36mApplying config[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mgz-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MinimalScene.cc:749] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MinimalScene.cc:1037] [0m[1;36mCreating texture node render interface for OpenGL[0m[1;36m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MarkerManager.cc:169] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list service.[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MarkerManager.cc:179] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list.[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [MarkerManager.cc:189] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m_array.[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [CameraTracking.cc:205] [0m[1;36mCameraTrackingPrivate plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to service on [[0m[1;32m/gui/move_to[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow service on [[0m[1;32m/gui/follow[0m[1;32m] (deprecated)[0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking topic on [[0m[1;32m/gui/track[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking status topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to pose service on [[0m[1;32m/gui/move_to/pose[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera pose topic advertised on [[0m[1;32m/gui/camera/pose[0m[1;32m][0m[1;32m[0m
+[gazebo-20] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow offset service on [[0m[1;32m/gui/follow/offset[0m[1;32m] (deprecated)[0m[1;32m[0m
+[gazebo-20] [1;36m[GUI] [Dbg] [InteractiveViewControl.cc:176] [0m[1;36mInteractiveViewControl plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-20] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="lidar2d_0"]/gz_frame_id:<data-string>:L172]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-20] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="lidar2d_1"]/gz_frame_id:<data-string>:L201]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-20] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="do100-0000"]/link[@name="base_link"]/sensor[@name="imu_0"]/gz_frame_id:<data-string>:L209]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[imu_filter_madgwick_node-13] [WARN] [1794019973.866312462] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-13] [WARN] [1794019973.901872225] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-13] [WARN] [1794019973.951401341] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-13] [WARN] [1794019973.986601780] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-13] [WARN] [1794019974.006755226] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[imu_filter_madgwick_node-13] [WARN] [1794019974.030708223] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[imu_filter_madgwick_node-13] [WARN] [1794019974.055555890] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[imu_filter_madgwick_node-13] [WARN] [1794019974.099076566] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[imu_filter_madgwick_node-13] [WARN] [1794019974.128980255] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[imu_filter_madgwick_node-13] [WARN] [1794019974.156351194] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[imu_filter_madgwick_node-13] [WARN] [1794019974.210630550] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[imu_filter_madgwick_node-13] [WARN] [1794019974.258346003] [do100_0000.imu_filter_madgwick]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[imu_filter_madgwick_node-13] [INFO] [1794019974.334346831] [do100_0000.imu_filter_madgwick]: First IMU message received.
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-20] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2676] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[gazebo-2] [1;36m[Dbg] [Lidar.cc:139] [0m[1;36mLaser scans for [[0m[1;36mdo100_0000/robot::base_link::lidar2d_0[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/lidar2d_0/scan[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [GpuLidarSensor.cc:164] [0m[1;36mLidar points for [[0m[1;36mdo100_0000/robot::base_link::lidar2d_0[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/lidar2d_0/scan/points[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Lidar.cc:139] [0m[1;36mLaser scans for [[0m[1;36mdo100_0000/robot::base_link::lidar2d_1[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/lidar2d_1/scan[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [GpuLidarSensor.cc:164] [0m[1;36mLidar points for [[0m[1;36mdo100_0000/robot::base_link::lidar2d_1[0m[1;36m] advertised on [[0m[1;36mdo100_0000/sensors/lidar2d_1/scan/points[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [INFO] [1794020024.935054364] [do100_0000.controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-2] [INFO] [1794020024.935268379] [do100_0000.joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[gazebo-2] [INFO] [1794020025.233917449] [do100_0000.controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[gazebo-2] [INFO] [1794020025.284337471] [do100_0000.controller_manager]: Successfully switched controllers!
+[gazebo-2] [INFO] [1794020025.575294862] [do100_0000.controller_manager]: Loading controller : 'platform_velocity_controller' of type 'mecanum_drive_controller/MecanumDriveController'
+[gazebo-2] [INFO] [1794020025.575382248] [do100_0000.controller_manager]: Loading controller 'platform_velocity_controller'
+[gazebo-2] [WARN] [1794020025.596162630] [do100_0000.controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[gazebo-2] [INFO] [1794020025.596201583] [do100_0000.controller_manager]: Controller 'platform_velocity_controller' node arguments: --ros-args --params-file /home/ws3/.ros/omni_workshop/clearpath/platform/config/control.yaml --ros-args --remap ~/odom:=platform/odom --remap ~/cmd_vel:=platform/cmd_vel --remap /tf:=tf --remap /tf_static:=tf_static --remap /diagnostics:=diagnostics --remap /dynamic_joint_states:=platform/dynamic_joint_states --remap joint_states:=platform/joint_states --remap ~/reference:=platform/cmd_vel --remap ~/odometry:=platform/odom -p use_sim_time:=true --param use_sim_time:=true 
+[gazebo-2] [INFO] [1794020025.677432506] [do100_0000.controller_manager]: Configuring controller: 'platform_velocity_controller'
+[gazebo-2] [INFO] [1794020025.706810619] [do100_0000.platform_velocity_controller]: MecanumDriveController configured successfully
+[gazebo-2] [INFO] [1794020025.748186759] [do100_0000.controller_manager]: Activating controllers: [ platform_velocity_controller ]
+[gazebo-2] [INFO] [1794020025.836928314] [do100_0000.controller_manager]: Successfully switched controllers!
+[imu_filter_madgwick_node-13] [INFO] [1794020039.818464529] [do100_0000.imu_filter_madgwick]: Parameter general_goal_checker.yaw_goal_tolerance set to 3.141590
+[parameter_bridge-10] [INFO] [1794020066.506412902] [do100_0000.cmd_vel_bridge]: Passing message from ROS geometry_msgs/msg/TwistStamped to Gazebo gz.msgs.Twist (showing msg only once per type)
+[gazebo-2] [ERROR] [1794020088.799713673] [do100_0000.platform_velocity_controller]: Received message has timestamp 32.6250000000 older by 1.0120000000 than allowed timeout (1.0000).
+[gazebo-2] [ERROR] [1794020088.885909611] [do100_0000.platform_velocity_controller]: Received message has timestamp 32.6250000000 older by 1.0350000000 than allowed timeout (1.0000).

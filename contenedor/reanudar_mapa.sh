@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Dentro del contenedor; requiere pantalla :1 y ninguna simulación previa.
-set -euo pipefail
+set -eo pipefail
 source /ws/contenedor/entorno.sh
 mkdir -p /home/ws3/run
 bash /ws/contenedor/generar_robot_mapeo.sh 10 > /ws/evidencias/logs/office_0_r2_generacion.log 2>&1
@@ -10,6 +10,9 @@ for i in {1..180}; do
   grep -q 'Successfully loaded controller\|Successfully activated controllers\|Configured and activated' /ws/evidencias/logs/office_0_r2_simulacion.log && break
   sleep 1
 done
+if ! grep -q 'MecanumDriveController configured successfully' /ws/evidencias/logs/office_0_r2_simulacion.log; then
+  ros2 run controller_manager spawner joint_state_broadcaster platform_velocity_controller -c /do100_0000/controller_manager --controller-manager-timeout 60 --switch-timeout 60 >> /ws/evidencias/logs/office_0_r2_simulacion.log 2>&1
+fi
 python3 /ws/contenedor/filtrar_huella.py --ros-args -r /tf:=/do100_0000/tf -r /tf_static:=/do100_0000/tf_static > /ws/evidencias/logs/office_0_r2_filtro.log 2>&1 &
 echo $! > /home/ws3/run/filtro.pid
 ros2 launch omni_workshop mapping.launch.py rviz_config:=/ws/contenedor/mapping_office_0.rviz scan_topic:=/do100_0000/sensors/lidar2d_0/scan_filtrado > /ws/evidencias/logs/office_0_r2_slam.log 2>&1 &
