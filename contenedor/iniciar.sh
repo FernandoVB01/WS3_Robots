@@ -27,4 +27,4 @@ docker run -d --name ws3-jazzy --init --shm-size=1g \
   -e DISPLAY="$DISPLAY" -e XAUTHORITY=/tmp/host.xauth -e HOME=/home/ws3 \
   -e QT_X11_NO_MITSHM=1 -e QT_QPA_PLATFORM=xcb -e LIBGL_ALWAYS_SOFTWARE=1 \
   -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -e CYCLONEDDS_URI=file:///ws/contenedor/cyclonedds.xml -e LP_NUM_THREADS=1 -e ROS_DOMAIN_ID=33 -e TZ=America/Guayaquil \
-  ws3-jazzy:harmonic
+  "${WS3_IMAGE:-ws3-jazzy:harmonic}"

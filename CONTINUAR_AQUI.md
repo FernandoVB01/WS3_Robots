@@ -1,3 +1,12 @@
+> ACTUALIZACIÓN POSTERIOR: la sesión gráfica de Ubuntu cambió y Gazebo terminó.
+> La primera toma office_0 se cerró con ffprobe correcto, pero es PARCIAL y
+> contiene un tramo final sin avance. Su ruta es `evidencias/videos/03_office_0.mp4`.
+> El mapa `pequeno.pgm/yaml` es parcial. La continuación se prepara con
+> `contenedor/reanudar_mapa.sh`, frecuencia lidar 10 Hz y un contenedor con la
+> conexión X11 actualizada. Consultar `office_0_r2_*` para el estado más reciente.
+> La nueva toma es `evidencias/videos/03_office_0_repeticion.mp4`; el cierre
+> autónomo guardará `pequeno_repeticion.pgm/yaml`. No confundirla con la toma anterior.
+
 # Continuidad del Workshop 3
 
 Última actualización: 6 de noviembre de 2026, durante la exploración de office_0.

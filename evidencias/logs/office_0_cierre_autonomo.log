@@ -1,1 +1,7 @@
 {"event": "watching", "unix_time": 1794017810.3741162, "explorer_pid": 18796, "recorder_pid": 17900, "world": "office_0"}
+{"event": "explorer_exited", "unix_time": 1794019431.9690394}
+[x11grab @ 0x641c48228ec0] Cannot open display :1.0, error 1.
+[in#0 @ 0x641c48228dc0] Error opening input: Input/output error
+Error opening input file :1.0.
+Error opening input files: Input/output error
+{"event": "finalized", "unix_time": 1794019459.4634492, "world": "office_0", "map_save_exit": 0, "ffprobe_exit": 0, "video": "/ws/evidencias/videos/03_office_0.mp4", "completed_unix_time": 1794019459.4348629, "coverage_review_required": true, "media": {"programs": [], "streams": [{"codec_name": "h264", "width": 1280, "height": 720, "r_frame_rate": "15/1"}], "format": {"duration": "2939.800000", "size": "57650484"}}}
