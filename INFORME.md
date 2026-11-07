@@ -1,6 +1,6 @@
 # Workshop 3: modelo omnidireccional y mapeo
 
-Integrantes: Jhon Frank Caicedo Coronel, Raziel Alejandro Espinoza Vargas y Luis Fernando Velez Burgos.
+Integrantes: Jhelton Joel Guanolisa Santos, Raziel Alejandro Espinoza Vargas y Luis Fernando Velez Burgos.
 Iniciales utilizadas: J, R y L.
 
 ## 2.1 Diferencias entre modelos cinemáticos

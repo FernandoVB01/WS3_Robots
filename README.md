@@ -1,6 +1,6 @@
 # Workshop 3 — Robots omnidireccionales
 
-Implementación para Jhon Frank Caicedo Coronel, Raziel Alejandro Espinoza Vargas y Luis Fernando Velez Burgos.
+Implementación para Jhelton Joel Guanolisa Santos, Raziel Alejandro Espinoza Vargas y Luis Fernando Velez Burgos.
 
 ## Estado
 

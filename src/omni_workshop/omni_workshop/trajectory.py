@@ -104,7 +104,7 @@ class Trajectory:
 
 
 def initials_jrl():
-    """Jhon, Raziel y Luis. Letras conectadas, vistas con x horizontal e y vertical.
+    """Jhelton, Raziel y Luis. Letras conectadas, vistas con x horizontal e y vertical.
 
     El desplazamiento inicial y las conexiones también quedan registrados.
     La orientación se mantiene en cero para mostrar desplazamiento lateral.

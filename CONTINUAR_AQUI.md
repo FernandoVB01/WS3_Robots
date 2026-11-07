@@ -1,3 +1,8 @@
+> Integrantes actualizados: Jhelton Joel Guanolisa Santos, Raziel Alejandro
+> Espinoza Vargas y Luis Fernando Velez Burgos. Jhelton sustituye al integrante
+> anterior; las iniciales siguen siendo JRL. No se modifican los datos ni videos
+> ya registrados por este cambio de integrante.
+
 > Actualización de autoría Git: los cuatro commits anteriores se reescribieron
 > con FernandoVB01 y su correo noreply. Los identificadores antiguos mencionados
 > abajo son históricos. No restaurar la identidad Codex en commits nuevos.

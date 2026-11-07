@@ -7,7 +7,7 @@ Este archivo es una lista de control; no declara completa la entrega.
 
 - [x] Controlador Python para el modelo omnidireccional mecanum de 45°.
 - [x] Trayectoria de prueba y comparación entre referencia, odometría calculada y posición respecto al mundo de Gazebo.
-- [x] Trayectoria JRL: Jhon, Raziel y Luis.
+- [x] Trayectoria JRL: Jhelton, Raziel y Luis.
 - [x] Gráficas, CSV y métricas de las dos ejecuciones completas.
 - [x] Videos de ambas trayectorias con Gazebo y RViz en pantalla dividida.
 
