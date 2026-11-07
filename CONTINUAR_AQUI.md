@@ -1,3 +1,14 @@
+> ESTADO MÁS RECIENTE: toma office_0_r3 activa, video
+> `evidencias/videos/03_office_0_supervisado.mp4`. SLAM procesa cada scan
+> (throttle_scans=1, minimum_time_interval=0.1), con velocidades reducidas.
+> Log de exploración: office_0_r3_exploracion.jsonl. Cierre: office_0_r3_cierre_autonomo.
+> El usuario pidió revisar cada 3 minutos: revision_3min.py captura pantalla y
+> registra crecimiento del MP4 y último evento en office_0_r3_revisiones.jsonl.
+> Son controles automáticos, no aprobación visual del mapa. Si la extensión
+> supera 13×12 m, interrumpe la exploración para revisar posible deriva.
+> Se hizo un arranque limpio del contenedor para eliminar servidores anteriores.
+> Mapas al cierre: pequeno_supervisado.pgm/yaml. No declararlos válidos sin revisar.
+
 > ESTADO POSTERIOR: office_0_r2 se interrumpió tras detectar atasco y paredes
 > duplicadas en SLAM. El cierre autónomo debe finalizar su MP4 y guardar el mapa
 > solo para diagnóstico. Revisar `evidencias/diagnostico/OFFICE_0_R2_NO_VALIDO.md`.
