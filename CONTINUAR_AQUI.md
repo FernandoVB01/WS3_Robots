@@ -1,3 +1,8 @@
+> ESTADO POSTERIOR: office_0_r2 se interrumpió tras detectar atasco y paredes
+> duplicadas en SLAM. El cierre autónomo debe finalizar su MP4 y guardar el mapa
+> solo para diagnóstico. Revisar `evidencias/diagnostico/OFFICE_0_R2_NO_VALIDO.md`.
+> No presentar esta repetición como mapa válido. Aún faltan ambos mapas finales.
+
 > Integrantes actualizados: Jhelton Joel Guanolisa Santos, Raziel Alejandro
 > Espinoza Vargas y Luis Fernando Velez Burgos. Jhelton sustituye al integrante
 > anterior; las iniciales siguen siendo JRL. No se modifican los datos ni videos
